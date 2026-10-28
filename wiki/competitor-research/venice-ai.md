@@ -1,6 +1,6 @@
 # 7. Venice.ai competitor analysis
 
-[Back to wiki home](README.md)
+[Back to wiki home](../README.md)
 
 Research compiled **28 October 2026**. Traffic, revenue and token figures move fast, so re-check before using them externally.
 

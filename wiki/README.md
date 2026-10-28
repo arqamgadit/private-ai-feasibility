@@ -14,7 +14,12 @@ The company is assumed to be based in the UAE.
 | [4. Provider comparison](04-provider-comparison.md) | Cost, content-policy limits and privacy terms for each provider |
 | [5. Content policy and trust & safety](05-content-policy-and-trust-safety.md) | Handling sexual content and blocking child abuse material without breaking the privacy promise |
 | [6. Legal risks](06-legal-risks.md) | UAE, international and product-level legal risks with mitigations |
-| [7. Venice.ai competitor analysis](07-venice-competitor-analysis.md) | Venice's customer acquisition, adult-content exclusions, "VPN for AI" landscape, developer vs consumer revenue split and clean addressable market for PureVPN |
+
+## Competitor research
+
+| Document | What it covers |
+|---|---|
+| [Venice.ai competitor analysis](competitor-research/venice-ai.md) | Venice's customer acquisition, adult-content exclusions, "VPN for AI" landscape, developer vs consumer revenue split and clean addressable market for PureVPN |
 
 ## Interactive model
 
