@@ -33,7 +33,7 @@ The architecture copies Venice's: a no-logging proxy we control, routing each re
 | Pro "verifiable privacy" mode (TEE / E2EE) | NEAR AI Cloud (per token) | Phala confidential GPUs on reserved contracts |
 | Images | fal.ai | Self-hosted Flux or SDXL on our own GPUs |
 | Optional frontier models | Direct provider APIs through our proxy, labelled "Anonymous" | Same |
-| Agent sandboxes | E2B (code), Browserbase (browser) | Self-hosted E2B (open source) on our own servers |
+| Agent sandboxes | E2B (code), Browserbase (browser); pilot Agent37 as a much cheaper alternative ([analysis](competitor-research/agent37.md)) | Self-hosted E2B (open source) on our own servers, or Agent37 if the pilot holds up |
 | Web search | Brave Search API | Same |
 | Backup for clearly safe-for-work traffic (Teams, coding) | Fireworks or Together | Same |
 

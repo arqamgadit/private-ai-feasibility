@@ -20,6 +20,7 @@ The company is assumed to be based in the UAE.
 | Document | What it covers |
 |---|---|
 | [Venice.ai competitor analysis](competitor-research/venice-ai.md) | Venice's customer acquisition, adult-content exclusions, "VPN for AI" landscape, developer vs consumer revenue split and clean addressable market for PureVPN |
+| [Agent37 competitor analysis](competitor-research/agent37.md) | Agent sandbox and hosted-harness platform: product, pricing, privacy and content terms, threat to our agent mode, and its potential as a sandbox supplier |
 
 ## Interactive model
 
