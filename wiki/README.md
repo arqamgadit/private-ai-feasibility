@@ -14,6 +14,7 @@ The company is assumed to be based in the UAE.
 | [4. Provider comparison](04-provider-comparison.md) | Cost, content-policy limits and privacy terms for each provider |
 | [5. Content policy and trust & safety](05-content-policy-and-trust-safety.md) | Handling sexual content and blocking child abuse material without breaking the privacy promise |
 | [6. Legal risks](06-legal-risks.md) | UAE, international and product-level legal risks with mitigations |
+| [7. Model licences](07-model-licenses.md) | MIT, Apache-2.0, modified MIT, and custom vendor licences — implications for hosting and product shape |
 
 ## Competitor research
 
