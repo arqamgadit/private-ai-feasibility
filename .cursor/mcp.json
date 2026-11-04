@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "synapse": {
+      "url": "https://cs.usesynapse.io/mcp"
+    }
+  }
+}
