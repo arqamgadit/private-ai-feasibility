@@ -1,4 +1,4 @@
-# 7. Venice.ai competitor analysis
+# Venice.ai competitor analysis
 
 [Back to wiki home](../README.md)
 
