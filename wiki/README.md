@@ -15,6 +15,7 @@ The company is assumed to be based in the UAE.
 | [5. Content policy and trust & safety](05-content-policy-and-trust-safety.md) | Handling sexual content and blocking child abuse material without breaking the privacy promise |
 | [6. Legal risks](06-legal-risks.md) | UAE, international and product-level legal risks with mitigations |
 | [7. Market size, growth, players and the pain](07-market-research.md) | How big the clean private-AI market is, how fast it is growing, who sells into it, and the pain buyers pay to remove |
+| [8. Briefing for market research](08-researcher-brief.md) | Standalone brief: the product, the pains, the segments and the packaging, with each figure tagged as a decision, a model assumption or an estimate |
 
 ## Competitor research
 
@@ -29,6 +30,8 @@ The full financial model is an interactive canvas where every assumption can be 
 The numbers in this wiki are the canvas's base-case defaults.
 
 Market size, growth, players and the priced pain are charted in [Private AI market conviction](https://cursor.com/canvas/store-6d9201ae-7bc3-4f73-868f-a4721e776fc1/aec17bb6-1105-47ee-a759-639826c83eff). The write-up is [page 7](07-market-research.md).
+
+The document to send a market researcher is [page 8](08-researcher-brief.md). It collects the product, the pains, the segments and the packaging from the rest of the wiki.
 
 ## Status and caveats
 
