@@ -28,7 +28,7 @@ The architecture copies Venice's: a no-logging proxy we control, routing each re
 | Layer | Launch phase | Scale phase |
 |---|---|---|
 | No-logging proxy | Our own gateway (LiteLLM or custom). Optionally on a Phala confidential VM so users can verify it keeps no logs | Same |
-| Default "Private" text models | DeepInfra | Self-host main 2–3 models on CoreWeave or Nebius reserved GPUs; DeepInfra for overflow |
+| Default "Private" text models | DeepInfra | Self-host main 2–3 models on reserved GPUs (CoreWeave / Nebius primary; Vultr, Denvr, Seeweb EU also shortlisted — see [page 9](09-gpu-cloud-provider-value-research.md)); DeepInfra for overflow |
 | Fast agent steps | Groq with zero retention switched on | Same, or self-hosted |
 | Pro "verifiable privacy" mode (TEE / E2EE) | NEAR AI Cloud (per token) | Phala confidential GPUs on reserved contracts |
 | Images | fal.ai | Self-hosted Flux or SDXL on our own GPUs |
