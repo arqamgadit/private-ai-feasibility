@@ -2,7 +2,7 @@
 
 [Back to wiki home](../README.md)
 
-Checked **15 November 2026** from each vendor's pricing and plan pages. **All prices below are annual plans only** (shown as $/mo equivalent and first-year billed total where useful). Introductory yearly rates move with seasonal sales; treat first-term figures as a snapshot and re-check before any packaging decision. All amounts are **USD** unless noted.
+Checked **15 November 2026** from each vendor's pricing and plan pages. **All prices below are annual plans only** (shown as $/mo equivalent and yearly billed total where useful). PureVPN and Proton figures use the current annual checkout rate (often a first-year promo). **ExpressVPN figures use the regular annual rate** ($99.95 / $119.95 / $199.95), not the discounted first-term intro shown at checkout. All amounts are **USD** unless noted.
 
 ## Why this matters here
 
@@ -18,13 +18,13 @@ ExpressVPN is the closest packaging precedent for "VPN + private AI as one SKU."
 
 ## Snapshot: annual VPN entry
 
-| Vendor | Entry paid VPN plan | Annual intro | Billed first year | Renews at |
+| Vendor | Entry paid VPN plan | Annual $/mo | Billed per year | Notes |
 |---|---|---|---|---|
-| **PureVPN** | Standard | **$3.40/mo** | $40.80 | $57.95 / year (~$4.83/mo) |
-| **ExpressVPN** | Basic | **$4.99/mo** | ~$59.85 | $99.95 / year (~$8.33/mo) |
-| **Proton** | VPN Plus | **$3.99/mo** (promo sometimes ~$2.99) | $47.88 (or ~$35.88 promo) | $83.88 / year (~$6.99/mo) |
+| **PureVPN** | Standard | **$3.40** | $40.80 | Current annual checkout; renews $57.95/yr |
+| **ExpressVPN** | Basic | **$8.33** | **$99.95** | Regular annual rate (not first-term intro) |
+| **Proton** | VPN Plus | **$3.99** | $47.88 | Current annual checkout; renews $83.88/yr; promo sometimes ~$2.99 |
 
-**Takeaway:** On annual billing, PureVPN and Proton sit near each other on entry VPN; ExpressVPN is higher and renews highest. Proton also offers a free VPN tier; PureVPN and ExpressVPN do not.
+**Takeaway:** On comparable annual billing, PureVPN and Proton sit near each other on entry VPN; ExpressVPN’s regular annual rate is roughly 2× higher. Proton also offers a free VPN tier; PureVPN and ExpressVPN do not.
 
 ---
 
@@ -88,17 +88,18 @@ Three consumer tiers. Every tier includes the VPN, **Advanced Protection** (ads 
 
 Identity Defender is **US-only** per ExpressVPN's subscription docs.
 
-### Annual pricing (pricing page + support docs, Nov 2026)
+### Annual pricing (regular rate, Nov 2026)
+
+Checkout often advertises a lower first-term intro (around $4.99 / $5.99 / $8.99 per month). **This comparison uses the regular annual price** disclosed as the ongoing rate:
 
 | | Basic | Advanced | Express Pro |
 |---|---|---|---|
-| **$/mo (annual)** | **~$4.99** | **~$5.99** | **~$8.99** |
-| **Billed first year** | ~$59.85 | ~$71.88 | ~$107.88 |
-| **Renews** | $99.95 / year | $119.95 / year | $199.95 / year |
+| **$/mo (annual)** | **$8.33** | **$10.00** | **$16.66** |
+| **Billed per year** | **$99.95** | **$119.95** | **$199.95** |
 
 ### Packaging posture
 
-Premium VPN brand that has already moved to a **cybersecurity suite + private AI**. Basic alone undercuts buying VPN + a separate AI sub for light use. Pro is the "everything" SKU (dedicated IP + heavy ExpressAI). This is the packaging PureVPN would be answering if it ships a private AI attach on Max or a new AI tier.
+Premium VPN brand that has already moved to a **cybersecurity suite + private AI**. At the regular annual rate, Basic is still cheaper than buying a separate AI sub for light use, but it is clearly a premium VPN bill versus PureVPN/Proton. Pro is the "everything" SKU (dedicated IP + heavy ExpressAI). This is the packaging PureVPN would be answering if it ships a private AI attach on Max or a new AI tier.
 
 ---
 
@@ -150,8 +151,8 @@ Swiss open-source privacy ecosystem. VPN can be free, VPN-only, or free inside a
 
 | Dimension | PureVPN Standard | ExpressVPN Basic | Proton VPN Plus |
 |---|---|---|---|
-| Annual intro $/mo | **$3.40** | **~$4.99** | **$3.99** (promo ~$2.99) |
-| Renews $/mo equiv. | ~$4.83 | ~$8.33 | ~$6.99 |
+| Annual $/mo | **$3.40** (checkout) | **$8.33** (regular) | **$3.99** (checkout; promo ~$2.99) |
+| Billed per year | $40.80 | **$99.95** | $47.88 |
 | Devices | 10 | 10 | 10 |
 | Server footprint | 6,000+ / 65+ countries | Servers in 113 countries | 20,000+ / 140+ countries |
 | Free tier | No | No | Yes (1 device, limited countries) |
@@ -163,7 +164,7 @@ Swiss open-source privacy ecosystem. VPN can be free, VPN-only, or free inside a
 
 | Dimension | PureVPN Plus | ExpressVPN Advanced | Proton Unlimited |
 |---|---|---|---|
-| Annual intro $/mo | **~$6.06** | **~$5.99** | **$6.49** (renews ~$9.99) |
+| Annual $/mo | **~$6.06** (checkout) | **$10.00** (regular / $119.95) | **$6.49** (checkout; renews ~$9.99) |
 | Password manager | PureKeep | ExpressKeys | Proton Pass Plus |
 | Email privacy | — | ExpressMailGuard (limited) | Full Proton Mail Plus |
 | Cloud storage | Marketing sometimes lists secure cloud on Plus; treat as verify-at-checkout | ExpressAI file storage only at Basic/Advanced limits | 500 GB Drive |
@@ -175,7 +176,7 @@ Swiss open-source privacy ecosystem. VPN can be free, VPN-only, or free inside a
 
 | Dimension | PureVPN Max | ExpressVPN Pro | Proton Family / Visionary |
 |---|---|---|---|
-| Annual intro $/mo | **~$7.40** | **~$8.99** | Family **$23.99**; Visionary **~$29.99** |
+| Annual $/mo | **~$7.40** (checkout) | **$16.66** (regular / $199.95) | Family **$23.99**; Visionary **~$29.99** |
 | Data removal / ID tools | Data removal + dark web | Full Identity Defender + $5M insurance (US) | Dark-web monitoring; not Assurant-style insurance |
 | Dedicated IP | Add-on | **Included** | Not a Proton VPN headline feature |
 | Private AI | No | ExpressAI 500 credits/day, 6 models | Family: Lumo Free; Visionary: Lumo Plus |
@@ -193,11 +194,11 @@ Swiss open-source privacy ecosystem. VPN can be free, VPN-only, or free inside a
 | Privacy claim | — | Confidential computing / "truly private AI" | Zero-access encryption; chats not used for training |
 | Usage meter | — | Daily credits (50 / 100 / 500) | Max-model / message / image caps; Plus raises them |
 | Models | — | 1 model on Basic/Advanced; 6 on Pro | Lite / Max / Apertus (routing not fully open) |
-| Bundle economics (annual) | Opportunity | AI is a reason to buy Advanced/Pro (~$5.99–8.99/mo) | Lumo Plus on top of Unlimited (~$6.49–9.99 + $9.99) |
+| Bundle economics (annual) | Opportunity | AI is a reason to buy Advanced/Pro (**$10.00–16.66/mo** regular) | Lumo Plus on top of Unlimited (~$6.49–9.99 + $9.99) |
 
 **Implication for PureVPN attach pricing (planning judgment, not a decision):**
 
-1. A PureVPN **AI add-on near $5–10/mo annual** or a **Max+AI tier near Express Advanced (~$5.99/mo annual)** sits in a crowded but understandable band.
+1. A PureVPN **AI add-on near $5–10/mo annual** or a **Max+AI tier under Express Advanced’s regular ~$10/mo** sits in a crowded but understandable band — and still under Express’s real annual bill.
 2. Beating ExpressVPN requires either **cheaper AI on the entry VPN** or **clearer privacy / model / agent capabilities** than ExpressAI's credit tiers.
 3. Beating Proton means being better than **Lumo Free** without forcing users into **Lumo Plus + VPN**. Unlimited customers already pay for privacy apps; they may still pay for AI if limits bite.
 4. PureVPN's structural advantage remains **distribution and low VPN ARPU**; AI should raise attach ARPU without wrecking the ~$3–4 annual VPN price perception.
@@ -209,7 +210,7 @@ Swiss open-source privacy ecosystem. VPN can be free, VPN-only, or free inside a
 | Vendor | Pricing strategy (annual lens) | Product strategy |
 |---|---|---|
 | **PureVPN** | Lowest annual VPN entry; renewal still under peers | VPN-first; sell Plus/Max and add-ons; expand device count via Multi-Login |
-| **ExpressVPN** | Higher annual VPN; steep renewal jump | Premium VPN → full cyber suite with AI as a first-class included feature |
+| **ExpressVPN** | Premium regular annual rate ($99.95–$199.95); deep first-term intros at checkout | Premium VPN → full cyber suite with AI as a first-class included feature |
 | **Proton** | Free funnel; Unlimited as the annual value hero; household Duo/Family | Encrypted productivity suite; VPN is one pillar; AI is adjacent (Lumo), not the VPN SKU itself |
 
 ---
@@ -220,4 +221,4 @@ Swiss open-source privacy ecosystem. VPN can be free, VPN-only, or free inside a
 - [ExpressVPN pricing](https://www.expressvpn.com/pricing), [ExpressVPN available subscriptions](https://www.expressvpn.com/support/manage-account/available-subscriptions/)
 - [Proton pricing](https://proton.me/pricing), [Proton plans explained](https://proton.me/support/proton-plans), [Proton VPN pricing](https://protonvpn.com/pricing), [Lumo pricing](https://proton.me/lumo/pricing), [Pass pricing](https://proton.me/pass/pricing), [Drive pricing](https://proton.me/drive/pricing)
 
-Third-party cross-checks used only where official pages omit a clean 12-month list rate (e.g. ExpressVPN 1-year figures).
+ExpressVPN regular annual rates are the post-intro / autorenew yearly amounts from the pricing page ($99.95 Basic, $119.95 Advanced, $199.95 Pro).
