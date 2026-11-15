@@ -22,6 +22,10 @@ The company is assumed to be based in the UAE.
 | Document | What it covers |
 |---|---|
 | [Venice.ai competitor analysis](competitor-research/venice-ai.md) | Venice's customer acquisition, adult-content exclusions, "VPN for AI" landscape, developer vs consumer revenue split and clean addressable market for PureVPN |
+| [PureVPN vs ExpressVPN vs Proton packages](competitor-research/vpn-package-comparison.md) | Product tiers, pricing (monthly / yearly / multi-year + renewals), suite features and private-AI attach comparison |
+
+Interactive view of the VPN package comparison:
+[PureVPN · ExpressVPN · Proton packages](https://cursor.com/canvas/store-6d9201ae-7bc3-4f73-868f-a4721e776fc1/507780ee-62ca-47ca-ab3e-a93f7db7a1cf).
 
 ## Interactive model
 
