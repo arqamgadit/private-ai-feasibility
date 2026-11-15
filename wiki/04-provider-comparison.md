@@ -27,6 +27,7 @@ Re-check before signing anything.
 | Provider | Cost | Content limits | Privacy |
 |---|---|---|---|
 | **Phala / RedPill** | CVM from **$0.06/hr**; GPU TEE from **$4.40/hr**. Token API e.g. GLM 5.3 Flash **$0.15 / $0.50**; uncensored Qwen3.8 27B **$0.30 / $1.50** | Lawful use; uncensored SKUs in catalog; no explicit adult ban found in public terms checked | TEE + attested no-log compose; optional E2EE. Venice TEE partner |
+| **Tinfoil** | Chat **$20/mo**. API e.g. GPT-OSS 120B **$0.15 / $0.60**; Llama 3.3 70B **$1.75 / $2.75**; DeepSeek V4.1 Flash **$0.60 / $1.45** | AUP bans CSAM, NCII of real people without consent, weapons, fraud — **no blanket adult ban**. Chat has in-enclave safeguards; **API is unmoderated** | Attested SEV-SNP/TDX + confidential GPUs; SDK verifies every connection; API no retention after response |
 | **Privatemode** | Free 5M tokens once; PAYG from ~**€0.65 / 1M output**; Business **€250/mo** | Bans illegal / harmful / **offensive** — enterprise tone, not uncensored | Client-verified E2EE + EU confidential compute; no prompt retention after request |
 | **Maple AI** | Pro **$20/mo**; Max **$100/mo** | CSAM / weapons / harassment bans; hosts an “uncensored” DeepSeek SKU without Venice-style NSFW marketing | Client E2EE + attested enclaves |
 | **Nillion nilAI** | Credits; public rate card sparse | Builder/infra positioning | NVIDIA TEE + signed responses; HTTPS into TEE (not full client E2EE) |

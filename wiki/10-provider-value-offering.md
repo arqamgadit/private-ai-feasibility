@@ -25,7 +25,7 @@ Prices and policies move; re-check before contracting.
 | Layer | Pick | Why |
 |---|---|---|
 | Private open-weight (launch) | **DeepInfra** + **Groq** | Default ZDR; DeepInfra cheapest + AUP silent on adult; Groq LPU speed + legality-scoped sexual AUP |
-| TEE / E2EE (Pro) | **Phala** (+ NEAR path as Venice does); **Privatemode** for EU/Teams | Attested enclaves; Phala also rents confidential VMs for our no-log proxy |
+| TEE / E2EE (Pro) | **Phala** (+ NEAR path as Venice does); **Tinfoil** as attested API overflow; **Privatemode** for EU/Teams | Attested enclaves; Phala also rents confidential VMs for our no-log proxy; Tinfoil API is unmoderated with SDK attestation |
 | Search (agent) | **Brave Search API** with enterprise ZDR | Privacy-positioned index; default API keeps queries ~90 days without ZDR |
 | Frontier “Anonymous” | **OpenAI ZDR** / **Anthropic ZDR** (approved orgs) | Capability only; high refusals; label honestly |
 | Self-host reserved | **CoreWeave / Nebius** + **Vultr / Denvr / Seeweb** | Control + competitive H100; see [page 9](09-gpu-cloud-provider-value-research.md) |
@@ -50,6 +50,20 @@ Consumer or API products whose pitch is **privacy by construction** (TEE, E2EE, 
 | **Fit** | **Launch partner** for TEE/E2EE and attested proxy hosting. RedPill as optional multi-provider router, not required |
 | **Risks** | Higher $/token than DeepInfra; attestation diligence (TCB freshness); uncensored labels clash with clean UAE brand if shown to end users |
 | **Sources** | [phala.com/pricing](https://phala.com/pricing), [redpill.ai/pricing](https://redpill.ai/pricing), [phala.com/terms](https://phala.com/terms) |
+
+### Tinfoil
+
+| Field | Detail |
+|---|---|
+| **Category** | Confidential inference API + chat + confidential containers |
+| **Value proposition** | OpenAI-compatible private inference on AMD SEV-SNP / Intel TDX with confidential NVIDIA GPUs; client SDKs verify attestation on every connection against open-source builds and public transparency logs |
+| **Privacy** | Plaintext designed inaccessible to Tinfoil / cloud hosts during normal operation. **API: no retention** of prompts/responses after return (temporary encrypted enclave prompt cache only); no training on API content. Chat may keep **device-keyed encrypted backups**. Optional web search / fetch leave the enclave trust boundary |
+| **Content** | AUP (12 Oct 2026): CSAM, weapons, fraud, malware, NCII of real people without consent, circumventing safety controls. **No blanket lawful-adult / pornography ban.** Chat has in-enclave safeguards (hard-no on child endangerment, mass violence, self-harm); **Inference API is not moderated or inspected** by Tinfoil |
+| **Economics** | Chat **$20/mo**. API PAYG e.g. GPT-OSS 120B **$0.15/$0.60**; Gemma 4 31B **$0.40/$1.00**; Llama 3.3 70B **$1.75/$2.75**; DeepSeek V4.1 Flash **$0.60/$1.45**; GLM 5.3 **$1.80/$5.75**; Kimi K3.1 Pro **$4/$20**. Also PII filter, embeddings, STT/TTS. Confidential containers: hourly CPU/GPU with **monthly GPU commitment** |
+| **Differentiators** | Strongest “verify every connection” SDK story among API peers; unmoderated API path; also rent confidential containers (proxy / custom serving); listed as a RedPill confidential backend |
+| **Fit** | **Launch partner** for TEE Private/Pro overflow and attested open-weight API — especially if we want hardware privacy without running Phala VMs ourselves |
+| **Risks** | Token prices above DeepInfra for many SKUs; Chat safeguards ≠ API (product must not confuse modes); search/fetch opt-ins weaken the privacy claim; container GPUs need monthly commit |
+| **Sources** | [tinfoil.sh/pricing](https://tinfoil.sh/pricing), [tinfoil.sh/inference](https://tinfoil.sh/inference), [Security FAQ](https://tinfoil.sh/security-and-privacy-faq), [AUP](https://tinfoil.sh/terms/aup), [Safety](https://tinfoil.sh/safety-and-safeguards) |
 
 ### Privatemode (Edgeless Systems)
 
@@ -188,6 +202,7 @@ We control the stack (except marketplace Community). Full write-ups: [page 9](09
 | Provider | Cohort | Privacy strength | Low-refusal friendliness | Economics | Role |
 |---|---|---|---|---|---|
 | Phala / RedPill | Confidential | Hardware TEE | High (uncensored SKUs) | Mid–high $/token | Launch TEE |
+| Tinfoil | Confidential | Attested TEE API (+ containers) | High (API unmoderated; AUP illegal/NCII-focused) | Mid $/token; Chat $20 | Launch TEE |
 | Privatemode | Confidential | Client E2EE + TEE | Low–mid (enterprise AUP) | Mid EUR | Teams / EU |
 | Venice | Confidential consumer | Modes through E2EE | High (NSFW brand) | Consumer SaaS | Competitor |
 | Maple AI | Confidential consumer | Client E2EE + TEE | Mid–high | Consumer SaaS | Competitor |
@@ -225,6 +240,7 @@ We control the stack (except marketplace Community). Full write-ups: [page 9](09
 
 - Venice TEE/E2EE → **Phala + NEAR AI**.
 - RedPill aggregates **Phala, Privatemode, NEAR, Tinfoil, Chutes**.
+- **Tinfoil** is a first-party confidential API/chat/containers product (tinfoil.sh), not only a RedPill backend.
 - Brave Leo strong path → **NEAR AI** TEEs; nilAI optional search → **Brave**.
 - Privatemode hosts in EU on **Scaleway** (among others) — stack coupling if both are in the design.
 
