@@ -2,7 +2,7 @@
 
 [Back to wiki home](README.md)
 
-Cost, content-policy limits and privacy terms for each option considered. **Prices and policies were checked on 26 October 2026** from provider pricing pages, terms of service and public price trackers. Re-check before signing anything.
+Cost, content-policy limits and privacy terms for each option considered. **Prices and policies were checked on 26 October 2026** from provider pricing pages, terms of service and public price trackers. A deeper GPU-cloud value pass for all 17 self-host candidates is in [page 9](09-gpu-cloud-provider-value-research.md) (**15 November 2026**). Re-check before signing anything.
 
 "Content limits" matters because the product is lightly filtered. Most providers allow frank, refusal-free text on lawful topics; nearly all ban sexually explicit content. Our policy is to block sexual content anyway (see [page 5](05-content-policy-and-trust-safety.md)), but a provider's wording still decides how much risk sits on our account.
 
