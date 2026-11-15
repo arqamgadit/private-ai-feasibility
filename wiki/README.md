@@ -17,6 +17,7 @@ The company is assumed to be based in the UAE.
 | [7. Market size, growth, players and the pain](07-market-research.md) | How big the clean private-AI market is, how fast it is growing, who sells into it, and the pain buyers pay to remove |
 | [8. Briefing for market research](08-researcher-brief.md) | Standalone brief: the product, the pains, the segments and the packaging, with each figure tagged as a decision, a model assumption or an estimate |
 | [9. GPU cloud provider value research](09-gpu-cloud-provider-value-research.md) | 17 GPU/infra providers for self-host: AUP, H100 pricing, privacy posture, Primary/Secondary/Overflow/Avoid fit (15 Nov 2026) |
+| [10. Provider value offering comparison](10-provider-value-offering.md) | Full value-offering matrix for every listed private/uncensored and GPU host (15 Nov 2026) |
 
 ## Competitor research
 
@@ -34,9 +35,12 @@ Market size, growth, players and the priced pain are charted in [Private AI mark
 
 The document to send a market researcher is [page 8](08-researcher-brief.md). It collects the product, the pains, the segments and the packaging from the rest of the wiki.
 
+Provider value offerings across confidential AI, open APIs, frontier ZDR and GPU clouds are in [page 10](10-provider-value-offering.md) and the [interactive matrix](https://cursor.com/canvas/store-6d9201ae-7bc3-4f73-868f-a4721e776fc1/51ed0eb0-5eaf-491e-819c-e0f54a868022).
+
 ## Status and caveats
 
-- Prices and provider policies were checked on **26 October 2026**; GPU self-host provider research refreshed **15 November 2026** ([page 9](09-gpu-cloud-provider-value-research.md)). Both change often, so re-check before signing contracts.
+- Prices and provider policies: short tables refreshed **15 November 2026** ([pages 4](04-provider-comparison.md), [9](09-gpu-cloud-provider-value-research.md), [10](10-provider-value-offering.md)). Both change often, so re-check before signing contracts.
+- Interactive provider value matrix: [Private AI provider value offering](https://cursor.com/canvas/store-6d9201ae-7bc3-4f73-868f-a4721e776fc1/51ed0eb0-5eaf-491e-819c-e0f54a868022).
 - Financial assumptions are planning estimates. [Page 7](07-market-research.md) replaces the market-size guess with sourced ranges: about $40–80M of clean consumer private AI today, planned at about 40% a year. Conversion, churn and the PureVPN attach rate are still unmeasured. Validate those, plus payment fees and token costs, before showing the model to investors.
 - Nothing here is legal advice. See [Legal risks](06-legal-risks.md) for the questions to take to counsel.
 
