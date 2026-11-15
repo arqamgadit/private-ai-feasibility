@@ -73,6 +73,7 @@ H100 on-demand prices per GPU-hour (15 Nov 2026); reserved contracts are cheaper
 |---|---|---|---|
 | **E2B** (code sandboxes) | About $0.17/hour for 2 CPUs and 4 GB, billed per second; Pro plan $150/month | Sandboxes run tools rather than generate content; terms not yet checked | Short-lived sandboxes; open source, so self-hostable |
 | **Browserbase** (browser sandboxes) | $0.10–0.12 per browser-hour; Startup plan $99/month | Terms not yet checked; browsing adult sites may be restricted | Sees every page the agent visits; get a data processing agreement |
+| **Agent37** (persistent sandboxes and VMs, hosted agent harnesses) | About $0.006/hour for 2 CPUs and 4 GB, billed per minute; idle costs disk only ($0.36/month for 4 GB) | Bans only illegal and harmful use; no explicit adult clause | Says it doesn't collect prompts, tool calls or terminal output. Keeps disks and backups at rest (7-day recovery copy after deletion) with operator infrastructure access. SOC 2 Type I. See [Agent37 analysis](competitor-research/agent37.md) |
 | **Steel, Hyperbrowser** | Alternatives to Browserbase | Not yet checked | Not yet checked |
 | **Daytona** | Alternative to E2B | Not yet checked | Not yet checked |
 | **Brave Search API** | $5 per 1,000 searches, $5 free credit a month | None relevant for search results policy | Default query logs ≤90 days; **enterprise ZDR** available — buy it for Private mode |
