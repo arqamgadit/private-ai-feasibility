@@ -16,6 +16,50 @@ Full comparison of every provider on the evaluation list, checked **15 November 
 | Catalog / capability | Models, speed, regions, ops maturity |
 | Role for us | Launch partner, Teams/EU, Competitor, Overflow, Avoid |
 
+**Compliance depth** (interactive table on the canvas — filterable):
+
+### Uncensored depth (U0–U5)
+
+| Level | Meaning |
+|---|---|
+| **U0** | Strict frontier refusals (Model Spec / erotic bans) |
+| **U1** | Moderated product (assistant safety; no 18+ mode) |
+| **U2** | Open weights but hard sexual / obscene ToS or warranty |
+| **U3** | Open weights; AUP silent or legality-scoped; no abliterated SKUs |
+| **U4** | Abliterated / uncensored SKUs offered, or self-host full control |
+| **U5** | Markets unrestricted / legal NSFW brand |
+
+Our product targets lawful low-refusal (**~U3–U4**) while blocking sexual content in product policy. **U5** (Venice-style branding) is what we avoid.
+
+### No-logs / no-retention depth (R0–R5)
+
+| Level | Meaning |
+|---|---|
+| **R0** | Stores prompts by default (ZDR is opt-in) |
+| **R1** | Short abuse / safety retention (~30 days) by default |
+| **R2** | Contractual ZDR — operator still sees plaintext during inference |
+| **R3** | You own the VM — you control logging |
+| **R4** | TEE attested — operator designed not to read prompts |
+| **R5** | Client E2EE + TEE — platform cannot decrypt |
+
+Private mode launch can live on **R2** (DeepInfra/Groq). Pro TEE/E2EE needs **R4–R5**. Self-host is **R3**.
+
+### Snapshot (selected)
+
+| Provider | Models (highlights) | U | R |
+|---|---|---|---|
+| Phala / RedPill | DeepSeek, Kimi, Qwen, GLM, Llama, GPT-OSS + **uncensored** Qwen/Gemma SKUs | U4 | R4 |
+| Tinfoil | GPT-OSS, DeepSeek V4.1 Flash, Llama 3.3 70B, Gemma 4, GLM 5.3, Kimi; containers for custom | U3 | R4 |
+| Privatemode | GLM-5.3, GPT-OSS, STT, OCR | U2 | R5 |
+| Maple | DeepSeek Flash **+ Uncensored**, GLM, Kimi, GPT-OSS, Llama | U4 | R5 |
+| Venice | Broad open + frontier Anonymous + media | U5 | R5 |
+| DeepInfra | Very large open catalog (Llama/DeepSeek/Qwen/GLM/…) | U3 | R2 |
+| Groq | GPT-OSS, Qwen, Llama (often enterprise) | U3 | R2 |
+| Together | Broad open + fine-tunes | U2 | R0→R2 if ZDR on |
+| Fireworks / Novita | Broad open | U2 | R2 |
+| OpenAI / Anthropic ZDR | Closed frontier only | U0 | R2 |
+| GPU Primary (CoreWeave, etc.) | Any you deploy | U3–U4 (AUP-capped) | R3 |
+
 Prices and policies move; re-check before contracting.
 
 ---
