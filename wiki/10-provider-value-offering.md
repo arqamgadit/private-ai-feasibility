@@ -109,6 +109,23 @@ Consumer or API products whose pitch is **privacy by construction** (TEE, E2EE, 
 | **Risks** | Token prices above DeepInfra for many SKUs; Chat safeguards ≠ API (product must not confuse modes); search/fetch opt-ins weaken the privacy claim; container GPUs need monthly commit |
 | **Sources** | [tinfoil.sh/pricing](https://tinfoil.sh/pricing), [tinfoil.sh/inference](https://tinfoil.sh/inference), [Security FAQ](https://tinfoil.sh/security-and-privacy-faq), [AUP](https://tinfoil.sh/terms/aup), [Safety](https://tinfoil.sh/safety-and-safeguards) |
 
+### Phala vs Tinfoil — self-host infra cost variables (16 Nov 2026)
+
+**RedPill** does not sell these line items (token API + chat only). Use **Phala Cloud** when modelling a self-hosted no-log proxy / TEE gateway on the RedPill path. **Tinfoil Containers** is the parallel path for attested custom serving. If you only buy either product as an inference API, leave these at **$0 / N/A** and use $/M token prices instead.
+
+Monthly CVM figures assume ~730 hours. Sources: [cloud.phala.com/about/pricing](https://cloud.phala.com/about/pricing), [phala.com/pricing](https://phala.com/pricing), [tinfoil.sh/pricing](https://tinfoil.sh/pricing), [tinfoil.sh/containers](https://tinfoil.sh/containers); Tinfoil CPU/RAM/volume rates also corroborated via public calculator snapshots (~$0.06/vCPU-hr, ~$0.01/GB-RAM-hr, ~$0.10/GB-mo).
+
+| Variable | Phala Cloud (RedPill TEE infra) | Tinfoil Containers |
+|---|---|---|
+| **GPU discount off on-demand** | H200×1: **~9%** (30d @ $5.00 vs $5.50 OD) / **~20%** (180d @ $4.40). H200×8: **~17%** / **~27%**. B300×1: **~6%** / **~9%**. GPU+CPU+disk bundled; cannot pause to save. | **Not published.** GPUs billed hourly but **require a monthly commitment**; rates in dashboard / sales only. |
+| **Managed Kubernetes $/month** | **$0 / N/A** — docker-compose on CVMs, not managed K8s. | **$0 / N/A** — `tinfoil-config.yml` enclaves, not K8s. |
+| **Model storage $/GB-month** | **~$0.10** ($0.000139/GB-hr; billed while the CVM exists, even stopped). GPU rentals: disk **included** in the hourly GPU rate. | **~$0.10** (volumes billed as provisioned GB-hours until deleted). No separate “model storage” SKU. |
+| **Storage base fee $/month** | **$0** (min disk 20 GB × ~$0.10 ≈ **~$2** if you keep a tiny disk). | **$0** (no base fee). |
+| **Load balancer $/month** | **$0** — included in Phala gateway / HTTPS endpoints. | **$0** published — custom domain is an add-on; price not listed. |
+| **Egress $/GB** | **$0 published** — bandwidth included by machine size; no per-GB meter listed. | **Not published** — egress closed by default (hostname allowlist / open). |
+| **Gateway machine $/month** | CVM compute: **tdx.small ~$44** ($0.06/hr) · **tdx.medium ~$88** ($0.12/hr) · **tdx.large ~$169** ($0.232/hr) **+** disk at ~$0.10/GB-mo. | CPU+RAM: **$0.06/vCPU-hr + $0.01/GB-RAM-hr**. Example **4 vCPU / 8 GB ≈ $0.32/hr ≈ $234/mo**. Whole-hour billing. |
+| **Self-hosted Grafana machine $/month** | Same as gateway — run Grafana on another CVM (**~$44–$169+/mo** + disk). Not a Phala SKU. | Same as gateway — another container at the CPU/RAM rates above. Not a Tinfoil SKU. |
+
 ### Privatemode (Edgeless Systems)
 
 | Field | Detail |

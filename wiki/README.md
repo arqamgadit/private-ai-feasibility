@@ -35,7 +35,7 @@ Market size, growth, players and the priced pain are charted in [Private AI mark
 
 The document to send a market researcher is [page 8](08-researcher-brief.md). It collects the product, the pains, the segments and the packaging from the rest of the wiki.
 
-Provider value offerings across confidential AI, open APIs, frontier ZDR and GPU clouds are in [page 10](10-provider-value-offering.md) and the [interactive matrix](https://cursor.com/canvas/store-6d9201ae-7bc3-4f73-868f-a4721e776fc1/51ed0eb0-5eaf-491e-819c-e0f54a868022).
+Provider value offerings across confidential AI, open APIs, frontier ZDR and GPU clouds are in [page 10](10-provider-value-offering.md) and the [interactive matrix](https://cursor.com/canvas/store-6d9201ae-7bc3-4f73-868f-a4721e776fc1/51ed0eb0-5eaf-491e-819c-e0f54a868022). Page 10 also has a **Phala vs Tinfoil self-host infra cost** table (GPU discount, storage, gateway/Grafana CVMs, egress, etc.).
 
 ## Status and caveats
 
