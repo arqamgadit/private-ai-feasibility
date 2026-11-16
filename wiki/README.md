@@ -23,7 +23,10 @@ The company is assumed to be based in the UAE.
 
 | Document | What it covers |
 |---|---|
-| [Venice.ai competitor analysis](competitor-research/venice-ai.md) | Venice's customer acquisition, adult-content exclusions, "VPN for AI" landscape, developer vs consumer revenue split and clean addressable market for PureVPN |
+| [Venice AI teardown and growth playbook](competitor-research/venice-ai-teardown.md) | Full company teardown (16 Nov 2026): revenue mix, who Venice sells to, Crusoe/Together/DeepInfra competition, adult marketing inventory, growth playbook, PureVPN takeaways |
+| [Proton Lumo teardown and growth playbook](competitor-research/proton-lumo-teardown.md) | Proton Lumo suite bundling, privacy architecture, monetization, AI Paper Trail, Lumo vs Venice, PureVPN implications (16 Nov 2026) |
+| [Discussion notes (16 Nov 2026)](competitor-research/discussion-notes-2026-11-16.md) | OpenRouter role, API vs subscription revenue quality, Venice vs Crusoe summary, AI Paper Trail explainer |
+| [Venice.ai competitor analysis](competitor-research/venice-ai.md) | Earlier pass (28 Oct 2026): customer acquisition, adult-content exclusions, "VPN for AI" landscape, developer vs consumer revenue split and clean addressable market for PureVPN |
 
 ## Interactive model
 
