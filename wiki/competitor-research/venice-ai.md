@@ -2,6 +2,8 @@
 
 [Back to wiki home](../README.md)
 
+> **Updated research (16 November 2026):** The primary teardown is [Venice AI teardown and growth playbook](venice-ai-teardown.md), with competition (Crusoe, OpenRouter), revenue mix, adult marketing inventory, and PureVPN takeaways. Supplementary [discussion notes](discussion-notes-2026-11-16.md) cover OpenRouter and revenue-quality framing. This page retains the **28 October 2026** acquisition and clean-market sizing work below.
+
 Research compiled **28 October 2026**. Traffic, revenue and token figures move fast, so re-check before using them externally.
 
 ## Framing
