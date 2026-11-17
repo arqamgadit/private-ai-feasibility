@@ -40,7 +40,7 @@ H100 on-demand prices per GPU-hour (15 Nov 2026); reserved contracts are cheaper
 
 | Provider | H100 cost | Content limits | Privacy |
 |---|---|---|---|
-| **Seeweb** | ~**€1.89** (~$2.09) | Confirm Italian ToS; customer responsible for legality | We control the stack (EU) |
+| **Seeweb** | ~**€1.89** (~$2.09) | **No explicit adult/porn ban** in General Conditions (updated Jun 2025). Customer fully liable for legality (Art. 5 civil/criminal indemnity). Suspension for payment, hacking, infra danger — not a morals AUP. Italian law still applies. Deep dive: [page 9 §16](09-gpu-cloud-provider-value-research.md#16-seeweb) | We control the stack (EU). Resale of services allowed (Art. 2) |
 | **Vultr** | **$2.30** | Obscene / offensive | We control the stack |
 | **Denvr** | **$2.45** | Illegal / CSAM; mining banned | We control the stack |
 | **NexGen / Hyperstack** | $2.50–3.20 (reserved from $1.75) | Law-based; no named adult ban in summary | We control the stack |
@@ -90,6 +90,6 @@ H100 on-demand prices per GPU-hour (15 Nov 2026); reserved contracts are cheaper
 ## Still to check
 
 - Written ZDR / no-training addenda for every launch-stack provider.
-- GMI Cloud full English AUP; Seeweb Italian adult clause.
+- GMI Cloud full English AUP. Seeweb adult clause: **resolved** — no AUP ban; see [page 9 §16](09-gpu-cloud-provider-value-research.md#16-seeweb).
 - E2B, Browserbase and remaining search-API terms.
 - Reserved GPU quotes before board packs that cite $/hr.

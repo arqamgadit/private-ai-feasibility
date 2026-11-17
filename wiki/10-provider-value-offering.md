@@ -253,7 +253,7 @@ We control the stack (except marketplace Community). Full write-ups: [page 9](09
 | **Bitdeer** | Mining-heritage → AI cloud; public reserved columns | ~$2.90 (tracker) | “Obscene”; brand diligence heavier |
 | **Scaleway** | FR/EU sovereign GPU + generative APIs | PCIe ~€2.86; SXM ~€6.61 | Unlawful porn / sexualized (FR context) |
 | **Gcore** | Edge + GPU VMs/bare metal | ~$2.61–3.12 | “Inappropriate or unlawful” |
-| **Seeweb** | Italian EU GPU; among cheapest public EU lists | **€1.89** (~$2.09) | Legality on customer; confirm Italian ToS |
+| **Seeweb** | Italian EU GPU; among cheapest public EU lists | **€1.89** (~$2.09) | **No adult/porn AUP** — Art. 5 legality indemnity only (IT law). Self-host **U3–U4**. See [page 9 §16](09-gpu-cloud-provider-value-research.md#16-seeweb) |
 | **Together AI** (dedicated) | DMI endpoints + GPU clusters without owning vLLM | Clusters $3.99; DMI $5.49 | Obscene/pornography ban; serverless stores by default |
 
 ---
@@ -281,7 +281,7 @@ We control the stack (except marketplace Community). Full write-ups: [page 9](09
 | Nebius | GPU IaaS | Own stack | Mid (“obscene”) | Mid | Primary |
 | Vultr | GPU IaaS | Own stack | Mid | Best big-list OD | Primary |
 | Denvr | GPU IaaS | Own stack | High | Excellent OD | Primary |
-| Seeweb | GPU IaaS | Own stack (EU) | Mid | Best EU OD | Primary EU |
+| Seeweb | GPU IaaS | Own stack (EU) | **U3–U4** (no adult AUP; IT law) | Best EU OD | Primary EU |
 | Crusoe | GPU IaaS | Own stack | High | Mid (rising Dec) | Secondary |
 | Lambda | GPU IaaS | Own stack | Mid | Mid (rising 16 Nov) | Secondary |
 | DigitalOcean | GPU IaaS | Own stack | Mid–high | Mid | Secondary |
@@ -311,6 +311,6 @@ We control the stack (except marketplace Community). Full write-ups: [page 9](09
 
 1. Written ZDR / no-training addenda for DeepInfra, Groq, Brave Search (enterprise), Phala, Privatemode.
 2. Phala / NEAR / Privatemode AUPs re-read against our content policy wording.
-3. GMI Cloud full English AUP; Seeweb Italian adult clause.
+3. GMI Cloud full English AUP. Seeweb adult clause: **resolved** — no AUP ban; legality + Art. 5 only ([page 9 §16](09-gpu-cloud-provider-value-research.md#16-seeweb)).
 4. Reserved quotes: CoreWeave −60%, Nebius, Crusoe, Together DMI, AWS Capacity Blocks.
 5. Lambda (16 Nov) and Crusoe (1 Dec) list-price changes before any board pack.

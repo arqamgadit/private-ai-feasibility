@@ -268,12 +268,69 @@ Research compiled **15 November 2026** for Venice-style private AI self-hosting 
 | **Category** | Regional (Italy / EU) |
 | **Core value prop** | Italian GPU cloud: dedicated hardware, hourly billing, K8s/IaC, GDPR EU DCs, free network traffic claim. |
 | **Privacy posture** | EU data processing; ISO claims; customer-controlled Cloud Server GPU. |
-| **Content / AUP** | General terms: customer responsible for legality of content; **no explicit adult ban** found in English product page / summary — Italian law still applies. Confirm with Seeweb before production. |
+| **Content / AUP** | **No separate AUP.** General Conditions only (web last updated **23 Jun 2025**; PDF body still labeled v. 1.0-2022 IT / 1.0-2018 EN). **No explicit ban** on adult, pornography, obscenity, NSFW, or “uncensored” models. Ceiling is **Italian/EU law** via customer liability (Art. 5). See deep dive below. |
 | **H100 pricing** | **€1.89/GPU-hr** OD (~**$2.09**); committed **€1.80 / 1.70 / 1.61** for 3/6/12 months. H200 **€2.60**. Spot option (up to 40% off, interruptible, 2-min notice). |
-| **Differentiators** | Among cheapest public EU H100 lists; 99.99% uptime claim; serverless GPU product. |
-| **Fit** | **Primary reserved** for **EU residency / GDPR** self-host slice. |
-| **Key risks** | Smaller global footprint; confirm multi-GPU NVLink topology vs list SKU; AUP explicitness. |
-| **Sources** | [seeweb.it EN Cloud Server GPU](https://www.seeweb.it/en/products/cloud-server-gpu), [computeprices Seeweb H100](https://computeprices.com/providers/seeweb/gpus/h100) |
+| **Differentiators** | Among cheapest public EU H100 lists; 99.99% uptime claim; serverless GPU product; **resale of services explicitly allowed** (Art. 2). |
+| **Fit** | **Primary reserved** for **EU residency / GDPR** self-host slice. Contractual uncensored depth ≈ **U3–U4** (law-scoped, not AUP-censored). |
+| **Key risks** | Smaller global footprint; confirm multi-GPU NVLink topology vs list SKU; Art. 8 “behavioural” suspension without notice; Art. 5 “any law now or future” indemnity; no comfort letter yet. |
+| **Sources** | [Cloud Server GPU](https://www.seeweb.it/en/products/cloud-server-gpu), [Condizioni Generali](https://www.seeweb.it/condizioni-generali), [PDF IT](https://www.seeweb.it/files/condizioni_generali_contratto_seeweb_2022-1.0.pdf), [PDF EN](https://www.seeweb.it/files/condizioni_generali_contratto_seeweb_2022-1.0_Eng.pdf), [Regolo T&Cs](https://regolo.ai/terms-and-conditions/) |
+
+### Seeweb “uncensored” terms deep dive (17 Nov 2026)
+
+**Product split (do not mix):**
+
+| Product | What it is | Uncensored relevance |
+|---|---|---|
+| **Cloud Server GPU / Serverless GPU** | IaaS — you run vLLM/SGLang and your weights | This is the self-host path. Content rules = General Conditions + Italian law. |
+| **Regolo.ai** | Seeweb-operated inference reverse proxy to models hosted on Seeweb infra | Managed API, not raw GPU. Seeweb disclaims editorial control; subscriber warrants **lawful** prompts/outputs. Not our “deploy abliterated weights” lane. |
+
+**What the General Conditions actually say (IT web + PDF; EN PDF is older but aligned on the material clauses):**
+
+1. **No content AUP checklist.** There is no Acceptable Use Policy document listing banned categories (porn, hate, weapons, etc.). The only content rule of substance is **Art. 5 — Liability for data**:
+   - Client is **fully liable** for data stored in their allocated storage and for disputes from distributing that data on the network.
+   - Client **indemnifies** Seeweb from civil **and criminal** liability arising from storage/divulgation of data that violate **any law in force or enacted in the future** during the contract.
+   - Client also owns copyright infringement risk for software/data they put on the server.
+2. **Suspension triggers (Art. 10)** are operational / abuse-of-infra, not morals clauses:
+   - (a) non-payment;
+   - (b) active attempts to violate Seeweb or third-party systems **via** the service;
+   - (c) programming/use that creates **danger or instability** damaging Seeweb.
+3. **Art. 8** also lets Seeweb suspend **without notice** for serious **technical, behavioural, or financial** breach — “behavioural” is undefined and is the softest residual kill-switch if abuse complaints escalate.
+4. **Art. 2** expressly **allows total/partial resale** of services (useful if we white-label inference on rented GPUs), with responsibilities unchanged.
+5. **Governing law:** Italian law; disputes → Frosinone (arbitration / court).
+
+**What is *not* in the contract (contrast with hostile peers):**
+
+| Peer | Explicit sexual / obscenity bar? | Seeweb Cloud GPU |
+|---|---|---|
+| Together | Yes — pornography / obscene | **No** |
+| Fireworks | Yes — nudity / sexual warranty | **No** |
+| Novita | Yes — sexually explicit | **No** |
+| RunPod | Yes — porn / graphic adult | **No** |
+| Seeweb | — | **Silence → legality only** |
+
+**Italian law still binds the customer (and indirectly the stack):**
+
+- **Always illegal:** CSAM / child sexual content (real or synthetic), non-consensual intimate imagery, many IP / fraud / weapons offenses — out of scope for us anyway.
+- **Adult pornography** is not automatically illegal in Italy if restricted to consenting adults; public “obscenity” rules (e.g. Cod. pen. art. 528 lineage) and notice-and-takedown / DSA duties can still bite **hosts** once they have actual knowledge of illegal material. Seeweb’s Art. 5 pushes that risk onto us as the customer running the GPU.
+- Our product **blocks sexual content in policy** ([page 5](05-content-policy-and-trust-safety.md)), so we are not asking Seeweb to host a Venice-style NSFW brand. The question is whether **low-refusal lawful** models (stock open weights or abliterated SKUs we deploy) are *contractually* forbidden → **they are not**.
+
+**Regolo (managed) — separate uncensored read:**
+
+- Seeweb “does not generate, modify, curate, filter, or exercise any editorial control” over prompts/outputs ([Regolo T&Cs](https://regolo.ai/terms-and-conditions/) §3.2).
+- Material breach: **high-risk AI Act uses** (with compliance duties) or **illegal/fraudulent** use → immediate suspension (§5.2).
+- Subscriber warrants prompts/use comply with IP, data protection, defamation, anti-discrimination, and “all applicable laws” (§6.1) — again **no adult/porn clause**.
+- Pay-per-token plans may be resold/embedded; flat-rate plans may **not** without written auth (§5.3).
+- Verdict: Regolo is fine for lawful traffic but is **not** where we get U4 control; model refusals follow whatever underlying model Seeweb hosts.
+
+**Score for our stack**
+
+| Dimension | Cloud Server GPU | Regolo |
+|---|---|---|
+| Uncensored depth (our U-scale) | **U3–U4** — no AUP adult ban; deploy any lawful weights; Italian legality + Art. 5 indemnity | **U2–U3** — legality-scoped conduit; no porn ban text; refusals = upstream model |
+| Fit with our clean product policy | **Strong** — we block sexual content ourselves; Seeweb does not force extra sexual filters | OK for EU overflow API only |
+| Must-do before production | Written sales confirmation that lawful low-refusal self-host (non-porn) is in-bounds; keep DSA/takedown process ready | Prefer pay-per-token if embedding |
+
+**Bottom line:** For “uncensored” as **low refusals on lawful topics**, Seeweb **Cloud Server GPU is among the friendlier EU contracts** we reviewed — legality-scoped, not morals-scoped. It is **not** a license for NSFW branding or illegal content. Residual risk is Italian law + vague “behavioural” suspension, not a Together-style pornography warranty.
 
 ---
 
@@ -330,6 +387,6 @@ Research compiled **15 November 2026** for Venice-style private AI self-hosting 
 ## Still incomplete / counsel
 
 - GMI Cloud full AUP English text (page did not return body).
-- Seeweb explicit adult clause in Italian general conditions.
+- Seeweb: ~~explicit adult clause~~ **closed 17 Nov 2026** — no adult/porn AUP; legality + Art. 5 indemnity only (see §16 deep dive). Still want a sales comfort email before production.
 - Reserved quotes: CoreWeave −60%, Nebius commitments, Crusoe reservations, Together DMI reserved, AWS Savings Plans / Capacity Blocks for our exact Region.
 - Zero-retention / no-training contractual addenda for each Primary shortlist (infra IaaS usually means *we* never send prompts to the vendor’s model API — but support access and abuse monitoring still need DPA language).
