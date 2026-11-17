@@ -1,30 +1,43 @@
-# PureVPN vs ExpressVPN vs Proton: product and pricing comparison
+# PureVPN vs ExpressVPN vs Proton vs NordVPN vs Surfshark
 
 [Back to wiki home](../README.md)
 
-Checked **15 November 2026** from each vendor's pricing and plan pages. **All prices below are annual plans only** (shown as $/mo equivalent and yearly billed total where useful). PureVPN and Proton figures use the current annual checkout rate (often a first-year promo). **ExpressVPN figures use the regular annual rate** ($99.95 / $119.95 / $199.95), not the discounted first-term intro shown at checkout. All amounts are **USD** unless noted.
+Checked **17 November 2026** from each vendor's pricing and plan pages. **All prices below are annual plans only** (shown as $/mo equivalent and yearly billed total).
+
+**Pricing basis**
+
+| Vendors | What we show |
+|---|---|
+| **PureVPN, Proton** | Current annual checkout rate (often a first-year promo) |
+| **ExpressVPN, NordVPN, Surfshark** | **Regular annual rate** (post-intro / autorenew), not the discounted first-term intro |
+
+All amounts are **USD** unless noted.
 
 ## Why this matters here
 
-This wiki is for a Venice-style private AI product that PureVPN could attach. Two of the three peers already sell **private AI inside the VPN / privacy bill**:
+This wiki is for a Venice-style private AI product that PureVPN could attach. Among these five:
 
 | Vendor | Private AI in the VPN bill today |
 |---|---|
 | **PureVPN** | No — Standard / Plus / Max are VPN + optional privacy tools |
 | **ExpressVPN** | Yes — **ExpressAI** on every tier (credits and models scale with plan) |
 | **Proton** | Partially — **Lumo Free** on paid plans; **Lumo Plus** is a paid add-on (**$9.99/mo** billed yearly), included only on **Visionary** |
+| **NordVPN** | No — Basic / Complete / Prime are VPN + security / identity toolkit |
+| **Surfshark** | No — Starter / One / One+ are VPN + antivirus / Alert / Incogni |
 
-ExpressVPN is the closest packaging precedent for "VPN + private AI as one SKU." Proton is the closest precedent for a full privacy suite with AI as a separate upsell.
+ExpressVPN is still the closest packaging precedent for "VPN + private AI as one SKU." Nord and Surfshark show how peers monetize **suite upsells without AI**.
 
 ## Snapshot: annual VPN entry
 
-| Vendor | Entry paid VPN plan | Annual $/mo | Billed per year | Notes |
+| Vendor | Entry paid VPN plan | Annual $/mo | Billed per year | Basis |
 |---|---|---|---|---|
-| **PureVPN** | Standard | **$3.40** | $40.80 | Current annual checkout; renews $57.95/yr |
-| **ExpressVPN** | Basic | **$8.33** | **$99.95** | Regular annual rate (not first-term intro) |
-| **Proton** | VPN Plus | **$3.99** | $47.88 | Current annual checkout; renews $83.88/yr; promo sometimes ~$2.99 |
+| **PureVPN** | Standard | **$3.40** | $40.80 | Checkout (renews $57.95/yr) |
+| **Proton** | VPN Plus | **$3.99** | $47.88 | Checkout (renews $83.88/yr) |
+| **Surfshark** | Starter | **$6.58** | **$79.00** | Regular annual |
+| **ExpressVPN** | Basic | **$8.33** | **$99.95** | Regular annual |
+| **NordVPN** | Basic | **$11.59** | **$139.08** | Regular annual |
 
-**Takeaway:** On comparable annual billing, PureVPN and Proton sit near each other on entry VPN; ExpressVPN’s regular annual rate is roughly 2× higher. Proton also offers a free VPN tier; PureVPN and ExpressVPN do not.
+**Takeaway:** PureVPN remains cheapest on annual entry. Surfshark’s regular rate sits between Proton and Express. Nord’s regular Basic is the most expensive entry VPN here. Only Proton offers a free VPN tier.
 
 ---
 
@@ -32,7 +45,7 @@ ExpressVPN is the closest packaging precedent for "VPN + private AI as one SKU."
 
 ### Personal tiers
 
-All three share the same VPN network and **10 simultaneous devices** (Multi-Login add-on can raise that toward 50). Differentiator is the surrounding privacy toolkit, not VPN speed or server access.
+Same VPN network and **10 simultaneous devices** across tiers (Multi-Login add-on can raise that toward 50).
 
 | | **Standard** | **Plus** | **Max** |
 |---|---|---|---|
@@ -40,11 +53,11 @@ All three share the same VPN network and **10 simultaneous devices** (Multi-Logi
 | Tracker / ad blocker | Yes | Yes | Yes |
 | Password manager (PureKeep) | — | Yes | Yes |
 | Data removal | — | — | Yes |
-| Dark web monitoring | — | — | Yes (full; lower tiers may show limited breach counts) |
-| Travel eSIM | — | — | Yes (order page: ~3 GB / 30 days) |
+| Dark web monitoring | — | — | Yes |
+| Travel eSIM | — | — | Yes (~3 GB / 30 days) |
 | Devices | 10 | 10 | 10 |
 
-### Annual pricing (order page, Nov 2026)
+### Annual pricing (checkout, Nov 2026)
 
 | | Standard | Plus | Max |
 |---|---|---|---|
@@ -52,18 +65,7 @@ All three share the same VPN network and **10 simultaneous devices** (Multi-Logi
 | **Billed first year** | $40.80 | $72.80 | ~$88.80 |
 | **Renews** | $57.95 / year | $69.95 / year | ~$84.95 / year |
 
-Also: **31-day money-back** guarantee; crypto / PayPal / cards accepted. A short trial can convert into a yearly plan unless cancelled.
-
-### Network and product notes
-
-- About **6,000+ servers** in **65+ countries** (marketing pages also say 80+ locations).
-- WireGuard, OpenVPN, IKEv2; kill switch; split tunneling (platform-dependent); obfuscated servers.
-- Paid add-ons (not in base tiers): dedicated IP, port forwarding, dedicated server, residential network (US/UK, bandwidth-capped from ~12 GB), Multi-Login, DDoS-protected VPN.
-- **Teams** plan exists for business — separate from consumer Standard/Plus/Max.
-
-### Packaging posture
-
-Cheap annual VPN with optional identity/password extras. **No private AI SKU.** Room to attach AI without colliding with an existing ExpressAI-style product, but PureVPN must still compete with ExpressVPN's bundled AI and Proton's Lumo.
+Network: ~6,000+ servers / 65+ countries. **No private AI SKU.**
 
 ---
 
@@ -71,154 +73,192 @@ Cheap annual VPN with optional identity/password extras. **No private AI SKU.** 
 
 ### Personal tiers
 
-Three consumer tiers. Every tier includes the VPN, **Advanced Protection** (ads / trackers / malicious / adult-site blocking), **ExpressMailGuard** (email relay), and **ExpressAI**. Higher tiers add password manager, identity defense (US), eSIM, more devices, and a dedicated IP on Pro.
-
 | | **Basic** | **Advanced** | **Express Pro** |
 |---|---|---|---|
-| VPN (Lightway, up to 40 Gbps claimed) | Yes | Yes | Yes |
-| Countries | 113 | 113 | 113 |
-| Simultaneous devices | 10 | 12 | 14 |
+| VPN | Yes (113 countries) | Yes | Yes |
+| Devices | 10 | 12 | 14 |
 | Dedicated IP | Add-on | Add-on | **Included** |
-| ExpressAI | 50 credits/day, 1 model, 100 MB storage | 100 credits/day, 1 model, 500 MB | 500 credits/day, **6 models**, 2 GB |
-| ExpressMailGuard | 10 MB/mo relay, 10 shared aliases | 100 MB/mo, 50 aliases, 1 custom domain | Unlimited relay/aliases, 20 custom domains |
-| ExpressKeys (password manager) | — | Yes (5 GB attachments) | Yes (10 GB) |
-| Identity Defender | — | Limited (e.g. 5 alerts, data removal, up to $3M ID theft insurance) | Full suite (up to $5M insurance) |
-| holiday.com eSIM | — | 3 GB / 3 days (annual / long plans) | 3 GB / 5 days (annual / long plans) |
-| Money-back | 30 days (new users) | 30 days | 30 days |
+| ExpressAI | 50 credits/day, 1 model | 100 credits/day, 1 model | 500 credits/day, **6 models** |
+| ExpressMailGuard | Limited | Mid | Full |
+| ExpressKeys | — | Yes | Yes |
+| Identity Defender (US) | — | Limited | Full |
+| eSIM | — | 3 GB / 3 days | 3 GB / 5 days |
 
-Identity Defender is **US-only** per ExpressVPN's subscription docs.
-
-### Annual pricing (regular rate, Nov 2026)
-
-Checkout often advertises a lower first-term intro (around $4.99 / $5.99 / $8.99 per month). **This comparison uses the regular annual price** disclosed as the ongoing rate:
+### Annual pricing (regular rate)
 
 | | Basic | Advanced | Express Pro |
 |---|---|---|---|
 | **$/mo (annual)** | **$8.33** | **$10.00** | **$16.66** |
 | **Billed per year** | **$99.95** | **$119.95** | **$199.95** |
 
-### Packaging posture
-
-Premium VPN brand that has already moved to a **cybersecurity suite + private AI**. At the regular annual rate, Basic is still cheaper than buying a separate AI sub for light use, but it is clearly a premium VPN bill versus PureVPN/Proton. Pro is the "everything" SKU (dedicated IP + heavy ExpressAI). This is the packaging PureVPN would be answering if it ships a private AI attach on Max or a new AI tier.
+Checkout intros are often ~$4.99 / $5.99 / $8.99 per month — not used here.
 
 ---
 
 ## 3. Proton packages
 
-Proton sells **standalone product Pluses**, **VPN Plus**, **suite bundles**, **multi-user plans**, and **Lumo** separately. You cannot stack multiple Plus products on one account (e.g. VPN Plus + Mail Plus); Unlimited / Duo / Family / Visionary unlock the suite.
+Proton sells standalone Pluses, VPN Plus, suite bundles, and Lumo separately. Unlimited / Duo / Family / Visionary unlock the suite.
 
-### VPN-focused (annual)
+### VPN and suites (annual)
 
-| Plan | What you get | Annual intro | Renews |
+| Plan | Users | Storage | Annual $/mo | Billed | Notes |
+|---|---|---|---|---|---|
+| **VPN Free** | 1 device | — | $0 | $0 | ~10 countries |
+| **VPN Plus** | 1 / 10 devices | Free apps only | **$3.99** | $47.88 | Renews $83.88/yr |
+| **Unlimited** | 1 | 500 GB | **$6.49** | $77.88 | Lumo Free; renews ~$9.99/mo |
+| **Duo** | 2 | 2 TB | **$14.99** | $179.88 | |
+| **Family** | 6 | 3 TB | **$23.99** | $287.88 | |
+| **Lumo Plus** | — | — | **$9.99** | $119.88 | AI add-on |
+| **Visionary** | 6 | 8 TB | **~$29.99** | — | Includes Lumo Plus |
+
+Standalone Mail / Pass / Drive Plus also exist (~$1.99–2.49/mo annual intro).
+
+---
+
+## 4. NordVPN packages
+
+### Personal tiers
+
+Current US consumer grid is **Basic / Complete / Prime** (older Standard / Plus / Ultimate names still appear on some renewal tables for legacy subs).
+
+| | **Basic** | **Complete** | **Prime** |
 |---|---|---|---|
-| **VPN Free** | 1 device, medium speed, ~10 countries auto-chosen, unlimited data | $0 | — |
-| **VPN Plus** | 10 devices, highest speed, 20,000+ servers / 140+ countries, NetShield, streaming, P2P, Secure Core, Tor-over-VPN | **$3.99/mo** ($47.88; promo sometimes ~$2.99 / $35.88) | $83.88 / year |
+| Secure VPN | Yes | Yes | Yes |
+| Devices | 10 | 10 | 10 |
+| Scam / phishing protection | Yes | Yes | Yes |
+| Dark Web Monitor | Up to 5 emails | Pro (8 emails + phone / card / ID) | Pro |
+| Next-gen antivirus (desktop) | — | Yes | Yes |
+| Ad / tracker blocker | — | Yes | Yes |
+| NordPass | — | Yes | Yes |
+| NordLocker (1 TB) | — | Yes | Yes |
+| Call / message protection | — | Yes | Yes |
+| Coveron identity protection (US) | — | — | Yes (up to $1M ID theft insurance) |
+| Incogni data removal | Add-on | Add-on | Add-on |
+| Dedicated IP | Add-on | Add-on | Add-on |
+| Private AI | No | No | No |
 
-VPN Plus unlocks free-tier Mail / Drive / Pass / Calendar only — not the paid Plus features of those apps.
+### Annual pricing (regular rate from nordvpn.com/pricing)
 
-### Standalone product Pluses (annual)
-
-| Plan | Annual intro | Renews | Core unlock |
+| | Basic | Complete | Prime |
 |---|---|---|---|
-| **Mail Plus** | $2.49/mo ($29.88 first year) | $47.88/yr | 15 GB, 10 addresses, 1 custom domain, Bridge, dark-web monitoring |
-| **Pass Plus** | $1.99/mo ($23.88 first year) | $35.88/yr | Unlimited aliases, 2FA, vaults, dark-web monitoring |
-| **Pass Family** | $2.79/mo ($33.48 first year) | $59.88/yr | Pass Plus × up to 6 |
-| **Drive Plus** | $2.49/mo ($29.88 first year) | $47.88/yr | 200 GB encrypted storage |
-| **Lumo Plus** | **$9.99/mo** ($119.88/yr) | $119.88/yr | Higher Max-model usage, history, images; unlimited Projects / Custom Lumos |
+| **$/mo (annual)** | **$11.59** | **$18.29** | **$24.69** |
+| **Billed per year** | **$139.08** | **$219.48** | **$296.28** |
 
-Buying Mail + Pass + Drive + VPN + Lumo as separate annual Pluses is far more expensive than Unlimited; Proton's design pushes the suite.
-
-### Suite and household bundles (annual)
-
-| Plan | Users | Storage | VPN Plus-class VPN | Other | Annual intro | Renew / list yearly |
-|---|---|---|---|---|---|---|
-| **Unlimited** | 1 | 500 GB | Yes | Mail/Pass/Drive/Calendar/Wallet Plus; **Lumo Free** | **$6.49/mo** ($77.88) | $119.88/yr (~$9.99/mo) |
-| **Duo** | 2 | 2 TB | Yes (10 devices **per user**) | All Unlimited apps + Scribe; Lumo Free | **$14.99/mo** ($179.88) | — |
-| **Family** | 6 | 3 TB | Yes (10 devices per user) | Same as Duo | **$23.99/mo** ($287.88) | — |
-| **Visionary** | 6 | 8 TB | Yes | Early-supporter SKU; **Lumo Plus included**; Meet Professional; future products | **~€29.99/mo** yearly | Legacy grandfathering for some |
-
-Support docs still cite older server counts (15,000+ / 120+ countries) in places; the VPN pricing page currently markets **20,000+ / 140+**.
+1-year checkout intros (often +3 months) are much lower (~$4.99 / $5.99 / $8.99 per month) — not used here.
 
 ### Packaging posture
 
-Swiss open-source privacy ecosystem. VPN can be free, VPN-only, or free inside a much larger encrypted productivity suite. **Private AI (Lumo) is not the hero of Unlimited** — it is free-capped unless the user pays Lumo Plus or holds Visionary. That leaves a wedge for a PureVPN AI attach that is more generous than Lumo Free and cheaper than Lumo Plus + a separate VPN.
+Nord sells a security suite ladder (antivirus → password manager → storage → US identity cover). Closest peer to Express Advanced/Pro on **non-AI** extras, at a higher regular annual bill. No ExpressAI / Lumo equivalent.
 
 ---
 
-## 4. Like-for-like matrices (annual)
+## 5. Surfshark packages
 
-### VPN core
+### Personal tiers
 
-| Dimension | PureVPN Standard | ExpressVPN Basic | Proton VPN Plus |
+Unlimited simultaneous devices on every paid plan.
+
+| | **Starter** | **One** | **One+** |
 |---|---|---|---|
-| Annual $/mo | **$3.40** (checkout) | **$8.33** (regular) | **$3.99** (checkout; promo ~$2.99) |
-| Billed per year | $40.80 | **$99.95** | $47.88 |
-| Devices | 10 | 10 | 10 |
-| Server footprint | 6,000+ / 65+ countries | Servers in 113 countries | 20,000+ / 140+ countries |
-| Free tier | No | No | Yes (1 device, limited countries) |
-| Money-back | 31 days | 30 days | 30 days |
-| Jurisdiction story | HK-founded consumer VPN (marketed globally) | British Virgin Islands (Kape) | Switzerland (Proton AG) |
-| Open source apps | No | No | Yes (audited) |
+| VPN | Yes (~4,500+ servers / 100 countries) | Yes | Yes |
+| Devices | **Unlimited** | Unlimited | Unlimited |
+| Alternative ID (masked identity / email) | Yes | Yes | Yes |
+| Ad / cookie blocker | Yes | Yes | Yes |
+| Antivirus | — | Yes | Yes |
+| Alert (breach monitoring) | — | Yes | Yes |
+| Scam protection | — | Yes | Yes |
+| Incogni data removal | — | — | Yes |
+| Identity theft coverage (US, excl. NY) | — | — | Yes (new One+ customers) |
+| Dedicated IP / Alternative Number | Add-ons | Add-ons | Add-ons |
+| Private AI | No | No | No |
 
-### Mid suite (password manager + extras)
+### Annual pricing (regular rate)
 
-| Dimension | PureVPN Plus | ExpressVPN Advanced | Proton Unlimited |
+| | Starter | One | One+ |
 |---|---|---|---|
-| Annual $/mo | **~$6.06** (checkout) | **$10.00** (regular / $119.95) | **$6.49** (checkout; renews ~$9.99) |
-| Password manager | PureKeep | ExpressKeys | Proton Pass Plus |
-| Email privacy | — | ExpressMailGuard (limited) | Full Proton Mail Plus |
-| Cloud storage | Marketing sometimes lists secure cloud on Plus; treat as verify-at-checkout | ExpressAI file storage only at Basic/Advanced limits | 500 GB Drive |
-| Private AI | No | ExpressAI 100 credits/day | Lumo Free only |
-| Identity / data removal | No (needs Max) | Yes (US Identity Defender, limited) | Dark-web monitoring; not a full US ID-theft insurance product |
-| Devices | 10 | 12 | 10 VPN devices |
+| **$/mo (annual)** | **$6.58** | **$8.25** | **$9.92** |
+| **Billed per year** | **$79** | **$99** | **$119** |
+
+Checkout intros are often ~$2.99–6.99/mo with bonus months — not used here.
+
+### Packaging posture
+
+Cheapest regular-rate suite ladder among the big VPN brands here. Unlimited devices is the headline product differentiator. One+ is Incogni + optional US identity cover — still no private AI.
+
+---
+
+## 6. Like-for-like matrices (annual)
+
+### VPN core (entry tier)
+
+| Dimension | PureVPN Standard | Proton VPN Plus | Surfshark Starter | ExpressVPN Basic | NordVPN Basic |
+|---|---|---|---|---|---|
+| Annual $/mo | **$3.40** | **$3.99** | **$6.58** | **$8.33** | **$11.59** |
+| Billed / year | $40.80 | $47.88 | $79 | $99.95 | $139.08 |
+| Devices | 10 | 10 | Unlimited | 10 | 10 |
+| Free tier | No | Yes | No | No | No |
+| Private AI | No | Lumo Free (account) | No | ExpressAI (50/day) | No |
+| Money-back | 31 days | 30 days | 30 days | 30 days | 30 days |
+
+### Mid suite (password manager / antivirus band)
+
+| Dimension | PureVPN Plus | Proton Unlimited | Surfshark One | Express Advanced | Nord Complete |
+|---|---|---|---|---|---|
+| Annual $/mo | **~$6.06** | **$6.49** | **$8.25** | **$10.00** | **$18.29** |
+| Password manager | PureKeep | Pass Plus | — | ExpressKeys | NordPass |
+| Antivirus / endpoint | — | — | Yes | — | Yes |
+| Private AI | No | Lumo Free | No | 100 credits/day | No |
+| Cloud storage | Verify at checkout | 500 GB | — | 500 MB ExpressAI | 1 TB NordLocker |
+| Breach / dark-web | Limited | Dark-web monitoring | Alert | ID tools (US) | Dark Web Monitor Pro |
 
 ### Top consumer suite
 
-| Dimension | PureVPN Max | ExpressVPN Pro | Proton Family / Visionary |
-|---|---|---|---|
-| Annual $/mo | **~$7.40** (checkout) | **$16.66** (regular / $199.95) | Family **$23.99**; Visionary **~$29.99** |
-| Data removal / ID tools | Data removal + dark web | Full Identity Defender + $5M insurance (US) | Dark-web monitoring; not Assurant-style insurance |
-| Dedicated IP | Add-on | **Included** | Not a Proton VPN headline feature |
-| Private AI | No | ExpressAI 500 credits/day, 6 models | Family: Lumo Free; Visionary: Lumo Plus |
-| Users | 1 account (10–50 logins) | 1 account (14 devices) | Family 6 / Visionary 6 |
-| Storage | Not a Drive competitor | 2 GB ExpressAI storage | Family 3 TB / Visionary 8 TB |
+| Dimension | PureVPN Max | Surfshark One+ | Express Pro | Nord Prime | Proton Family |
+|---|---|---|---|---|---|
+| Annual $/mo | **~$7.40** | **$9.92** | **$16.66** | **$24.69** | **$23.99** |
+| Data removal | Yes | Incogni | Via ID suite | Incogni add-on | — |
+| ID insurance (US) | — | Yes (new, excl. NY) | Up to $5M | Up to $1M (Coveron) | — |
+| Dedicated IP | Add-on | Add-on | **Included** | Add-on | — |
+| Private AI | No | No | 500 credits/day, 6 models | No | Lumo Free |
+| Users / devices | 1 / 10–50 | Unlimited devices | 14 devices | 10 devices | 6 users / 10 each |
 
 ---
 
-## 5. Private AI packaging comparison (relevant to this project)
+## 7. Private AI packaging comparison
 
-| | PureVPN | ExpressVPN ExpressAI | Proton Lumo |
-|---|---|---|---|
-| Included with base VPN? | No | Yes (all tiers) | Free capped on paid Proton; guest free without account |
-| Paid AI SKU | None yet | Upsell via higher VPN tier (more credits/models) | Lumo Plus **$9.99/mo** billed yearly |
-| Privacy claim | — | Confidential computing / "truly private AI" | Zero-access encryption; chats not used for training |
-| Usage meter | — | Daily credits (50 / 100 / 500) | Max-model / message / image caps; Plus raises them |
-| Models | — | 1 model on Basic/Advanced; 6 on Pro | Lite / Max / Apertus (routing not fully open) |
-| Bundle economics (annual) | Opportunity | AI is a reason to buy Advanced/Pro (**$10.00–16.66/mo** regular) | Lumo Plus on top of Unlimited (~$6.49–9.99 + $9.99) |
+| | PureVPN | ExpressVPN | Proton Lumo | NordVPN | Surfshark |
+|---|---|---|---|---|---|
+| In VPN bill? | No | Yes (all tiers) | Free capped; Plus usually extra | No | No |
+| Paid AI path | None yet | Higher VPN tier | Lumo Plus $9.99/mo yearly | None | None |
+| Privacy pitch | — | Confidential computing | Zero-access encryption | — | — |
 
-**Implication for PureVPN attach pricing (planning judgment, not a decision):**
+**Implication for PureVPN attach pricing (planning judgment):**
 
-1. A PureVPN **AI add-on near $5–10/mo annual** or a **Max+AI tier under Express Advanced’s regular ~$10/mo** sits in a crowded but understandable band — and still under Express’s real annual bill.
-2. Beating ExpressVPN requires either **cheaper AI on the entry VPN** or **clearer privacy / model / agent capabilities** than ExpressAI's credit tiers.
-3. Beating Proton means being better than **Lumo Free** without forcing users into **Lumo Plus + VPN**. Unlimited customers already pay for privacy apps; they may still pay for AI if limits bite.
-4. PureVPN's structural advantage remains **distribution and low VPN ARPU**; AI should raise attach ARPU without wrecking the ~$3–4 annual VPN price perception.
+1. ExpressVPN remains the only peer with AI baked into every VPN SKU; Nord/Surfshark prove suite ARPU can rise without AI.
+2. A PureVPN **AI add-on near $5–10/mo annual**, or Max+AI under Express Advanced’s regular **~$10/mo**, still undercuts Express’s real bill and Nord Complete (**~$18/mo**).
+3. Surfshark One+ at **~$9.92/mo** regular is the price ceiling many budget buyers already accept for “VPN + extras” — an AI attach should clear that value bar or undercut it with a clearer privacy story.
+4. PureVPN’s advantage remains **distribution + low VPN ARPU**; AI should raise attach without wrecking the ~$3–4 annual VPN price perception.
 
 ---
 
-## 6. What each vendor is optimizing for
+## 8. What each vendor is optimizing for
 
 | Vendor | Pricing strategy (annual lens) | Product strategy |
 |---|---|---|
-| **PureVPN** | Lowest annual VPN entry; renewal still under peers | VPN-first; sell Plus/Max and add-ons; expand device count via Multi-Login |
-| **ExpressVPN** | Premium regular annual rate ($99.95–$199.95); deep first-term intros at checkout | Premium VPN → full cyber suite with AI as a first-class included feature |
-| **Proton** | Free funnel; Unlimited as the annual value hero; household Duo/Family | Encrypted productivity suite; VPN is one pillar; AI is adjacent (Lumo), not the VPN SKU itself |
+| **PureVPN** | Lowest annual VPN entry | VPN-first; Plus/Max toolkit; no AI yet |
+| **Proton** | Free funnel; Unlimited as value hero | Encrypted productivity suite; Lumo adjacent |
+| **Surfshark** | Aggressive intros; moderate regular rates; unlimited devices | VPN + antivirus / Alert / Incogni ladder |
+| **ExpressVPN** | Premium regular annual; deep intros | Cyber suite **with ExpressAI included** |
+| **NordVPN** | Premium regular annual (highest entry here) | Antivirus / Pass / Locker / Coveron ladder; no AI |
 
 ---
 
 ## Sources
 
-- [PureVPN order / deals](https://www.purevpn.com/order), [PureVPN deals](https://www.purevpn.com/vpn-deals), [Multi-Login](https://www.purevpn.com/features/multi-login)
-- [ExpressVPN pricing](https://www.expressvpn.com/pricing), [ExpressVPN available subscriptions](https://www.expressvpn.com/support/manage-account/available-subscriptions/)
-- [Proton pricing](https://proton.me/pricing), [Proton plans explained](https://proton.me/support/proton-plans), [Proton VPN pricing](https://protonvpn.com/pricing), [Lumo pricing](https://proton.me/lumo/pricing), [Pass pricing](https://proton.me/pass/pricing), [Drive pricing](https://proton.me/drive/pricing)
+- [PureVPN order](https://www.purevpn.com/order)
+- [ExpressVPN pricing](https://www.expressvpn.com/pricing), [available subscriptions](https://www.expressvpn.com/support/manage-account/available-subscriptions/)
+- [Proton pricing](https://proton.me/pricing), [Proton plans](https://proton.me/support/proton-plans), [Proton VPN pricing](https://protonvpn.com/pricing), [Lumo pricing](https://proton.me/lumo/pricing)
+- [NordVPN pricing](https://nordvpn.com/pricing/), [NordVPN bundles explained](https://nordvpn.com/blog/nordvpn-bundle-explained/)
+- [Surfshark pricing](https://surfshark.com/pricing), [Surfshark plan options](https://support.surfshark.com/hc/en-us/articles/8958891462418-What-are-Surfshark-subscription-plan-options), [Surfshark plans blog](https://surfshark.com/blog/surfshark-vpn-plans)
 
-ExpressVPN regular annual rates are the post-intro / autorenew yearly amounts from the pricing page ($99.95 Basic, $119.95 Advanced, $199.95 Pro).
+Nord / Surfshark / Express regular annual rates are the autorenew yearly amounts printed on pricing pages or renewal terms (Nord $139.08 / $219.48 / $296.28; Surfshark $79 / $99 / $119; Express $99.95 / $119.95 / $199.95).
