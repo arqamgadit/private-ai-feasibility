@@ -169,15 +169,73 @@ Research compiled **15 November 2026** for Venice-style private AI self-hosting 
 
 | Field | Detail |
 |---|---|
-| **Category** | Neocloud |
-| **Core value prop** | Hyperstack brand: on-demand/reserved/spot GPU VMs, hibernation, AI Studio; NexGen Cloud is the parent. Regions: CANADA-1, NORWAY-1, US-1 (docs). |
-| **Privacy posture** | Customer VMs; EU/UK-oriented company; DPA published. |
-| **Content / AUP** | T&Cs (13 Jan 2026): illegal/harmful use; AI content that is harmful/discriminatory/infringing. **No named adult ban** in summary — treat as law-based. |
+| **Category** | Neocloud (UK) |
+| **Core value prop** | Hyperstack brand: on-demand/reserved/spot GPU VMs, hibernation, AI Studio; **NexGen Cloud Limited** is the contracting entity. Regions: CANADA-1, NORWAY-1, US-1 (docs). |
+| **Privacy posture** | Customer VMs; region-selectable storage; DPA + Privacy Policy published. England & Wales law; LCIA arbitration in London. |
+| **Content / AUP** | **No named adult/porn ban.** Dual rule: (1) general AUP bans illegal / abusive / fraudulent / violent use; (2) **AI Model** use adds “misleading, harmful, discriminatory, defamatory…” + applicable law. Can suspend on **actual or perceived** breach **without notice**; reserves right to **monitor**. See deep dive below. |
 | **H100 pricing** | OD: H100 PCIe **$2.50**, NVLink **$2.60**, SXM **$3.20**. Reserved from **$1.75 / $1.82 / $2.72**. Spot H100 PCIe **$2.00**. H200 SXM **$3.99** (reserved from **$2.79**). Free bandwidth claim. |
-| **Differentiators** | VM hibernation; 100% renewable energy claim; minute billing; AI Studio. |
-| **Fit** | **Secondary** — strong published reserved discounts; smaller than CoreWeave/Nebius for large reserved fleets. |
-| **Key risks** | Capacity depth; brand confusion (NexGen vs Hyperstack); enterprise SLA diligence. |
-| **Sources** | [hyperstack.cloud/gpu-pricing](https://www.hyperstack.cloud/gpu-pricing), [Terms](https://www.hyperstack.cloud/terms-and-conditions), [Docs](https://docs.hyperstack.cloud/) |
+| **Differentiators** | VM hibernation; 100% renewable energy claim; minute billing; AI Studio (managed inference + fine-tune). |
+| **Fit** | **Secondary** — strong published reserved discounts; smaller than CoreWeave/Nebius for large reserved fleets. Self-host GPU ≈ **U3–U4** with more soft-kill risk than Seeweb; AI Studio ≈ **U2–U3**. |
+| **Key risks** | Vague “harmful / discriminatory” AI clause + monitoring + perceived-breach suspension; capacity depth; brand confusion (NexGen vs Hyperstack). |
+| **Sources** | [GPU pricing](https://www.hyperstack.cloud/gpu-pricing), [Terms (13 Jan 2026)](https://www.hyperstack.cloud/terms-and-conditions), [Docs](https://docs.hyperstack.cloud/), [nexgencloud.com T&Cs](https://www.nexgencloud.com/terms-and-conditions) |
+
+### NexGen / Hyperstack “uncensored” terms deep dive (18 Nov 2026)
+
+**Product split (do not mix):**
+
+| Product | What it is | Uncensored relevance |
+|---|---|---|
+| **Hyperstack GPU / CPU VMs** (+ K8s, storage) | IaaS — you run vLLM/SGLang and your weights | Primary self-host path. Bound by **general** AUP + English law. |
+| **AI Studio** | Managed catalog / playground / OpenAI-compatible API; third-party models labelled | Extra **AI Model** content sentence + upstream model licences. Not the abliterated-weights lane. |
+
+**Who contracts:** NexGen Cloud Limited (“NexGen”), affiliates/subsidiaries. Hyperstack (`hyperstack.cloud`) is the product brand; same AUP text appears on nexgencloud.com.
+
+**What the T&Cs actually say** ([Hyperstack Terms, version dated 13 Jan 2026](https://www.hyperstack.cloud/terms-and-conditions)):
+
+1. **§1.1 Eligibility** — registration/use only if it does not contravene applicable law; NexGen “shall promptly terminate” if they determine a contravention.
+2. **§6.1 Sanctions** — refuse / suspend / terminate for UK, US, or EU sanctions breaches (direct or indirect).
+3. **§6.2 Acceptable use — general (all Services):**
+   - Must not be **illegal, abusive, deceitful, fraudulent, violent or threatening**;
+   - Must not introduce malware, overload, or violate security of any network/system;
+   - **Actual or perceived** breach → account suspended/terminated **immediately, without prior notice**.
+4. **§6.2 Acceptable use — AI Model sentence (added vs older Aug 2023 text on the same page):**
+   - “You must not use **AI Model** to generate content that is **misleading, harmful, discriminatory, defamatory**, violates any third-party rights, or otherwise contravenes any applicable law.”
+   - “NexGen reserves the right to **monitor** and suspend accounts found in violation.”
+5. **Defined term “AI Model”** = “each third-party and/or NexGen provided model **made available on the Platform**.” That wording points at **catalog / AI Studio models**, not necessarily weights you install yourself on a rented VM. The **general** AUP still covers VM use.
+6. **§4.6 Third-party AI Models** — labelled third-party models bring **their own** T&Cs / privacy / data policies on top; NexGen disclaims control.
+7. **§4.4 / §12** — sole discretion to refuse service; termination for any T&Cs breach with or without notice; serious breach may lose data (normally ~30 days retrieval window).
+8. **§11 Indemnity** — broad customer indemnity for use via the account (including third-party/end-user use), T&Cs breach, laws, IP.
+9. **§14.6 / §13** — England & Wales law; LCIA arbitration seated in London (English).
+
+**What is *not* in the contract:**
+
+| Peer | Explicit sexual / obscenity bar? | NexGen / Hyperstack |
+|---|---|---|
+| Together | Yes — pornography / obscene | **No** |
+| Fireworks | Yes — nudity / sexual warranty | **No** |
+| Novita | Yes — sexually explicit | **No** |
+| RunPod | Yes — porn / graphic adult | **No** |
+| Seeweb Cloud GPU | No — legality + Art. 5 only | **No named adult ban** either |
+| NexGen | — | **No porn clause**, but soft **“harmful / discriminatory / misleading”** AI language + **monitor** right |
+
+**How this differs from Seeweb (for our clean private-AI stack):**
+
+| | Seeweb Cloud GPU | NexGen Hyperstack GPU VMs | NexGen AI Studio |
+|---|---|---|---|
+| Adult / porn AUP | None | None | None |
+| Soft content adjectives | No (“any law” only) | General AUP is conduct/infra-focused | **Yes** — harmful / discriminatory / misleading / defamatory |
+| Monitoring reserved | Not in General Conditions | Yes (tied to AUP/AI clause) | Yes |
+| Kill-switch | Art. 8 “behavioural” + Art. 10 listed triggers | **Perceived** breach, no notice; sole-discretion refuse | Same |
+| Uncensored depth (our U-scale) | **U3–U4** | **U3–U4** with more discretionary risk | **U2–U3** (platform models + soft adjectives) |
+
+**Score for our stack**
+
+- **Self-host on Hyperstack VMs:** Contractually compatible with lawful low-refusal (no Together-style porn ban). Deploying our own open / abliterated weights is not barred by name. Residual risk is broader than Seeweb’s: **“perceived” breach**, **monitoring**, and the chance ops stretch “abusive / harmful” if complaints arrive.
+- **AI Studio:** Treat like other managed catalogs — upstream model refusals + §6.2 AI sentence. Not where we get U4 control.
+- **Our product policy** (block sexual content, allow frank lawful text) still fits; we are not asking them to host a Venice-style NSFW brand.
+- **Must-do before production:** sales/comfort email that self-hosted lawful low-refusal inference (non-porn) on GPU VMs is in-bounds, and that the AI Model sentence is aimed at AI Studio / platform models, not customer-installed weights.
+
+**Bottom line:** NexGen is **not morals-banned like Together/RunPod**, but it is **not as clean a “legality only” contract as Seeweb**. For uncensored-as-low-refusal, prefer **Hyperstack GPU VMs** over AI Studio, and get the AI-Model scope confirmed in writing.
 
 ---
 

@@ -43,7 +43,7 @@ H100 on-demand prices per GPU-hour (15 Nov 2026); reserved contracts are cheaper
 | **Seeweb** | ~**€1.89** (~$2.09) | Confirm Italian ToS; customer responsible for legality | We control the stack (EU) |
 | **Vultr** | **$2.30** | Obscene / offensive | We control the stack |
 | **Denvr** | **$2.45** | Illegal / CSAM; mining banned | We control the stack |
-| **NexGen / Hyperstack** | $2.50–3.20 (reserved from $1.75) | Law-based; no named adult ban in summary | We control the stack |
+| **NexGen / Hyperstack** | $2.50–3.20 (reserved from $1.75) | **No adult/porn ban.** General AUP: illegal/abusive/fraudulent/violent. Extra AI Model rule: no misleading/harmful/discriminatory/defamatory generation; **monitor** + suspend on **perceived** breach. England & Wales / LCIA. Deep dive: [page 9 §10](09-gpu-cloud-provider-value-research.md#10-nexgen-cloud-hyperstack) | We control the stack (VMs). AI Studio is a separate managed lane |
 | **GMI Cloud** | from $2.60 | AUP English body not retrieved | We control the stack |
 | **RunPod Secure** | PCIe ~$2.89 | **Bans pornography and graphic adult content**, lifetime bans | Fine on Secure Cloud; **avoid Community** |
 | **Bitdeer** | ~$2.90 (tracker) | “Obscene” | We control the stack |
