@@ -185,10 +185,10 @@ We control the stack (except marketplace Community). Full write-ups: [page 9](09
 | **Nebius** | Transparent EU-friendly GPU cloud | $4.50 (eu-north1) | “Obscene” + illegal porn |
 | **Crusoe** | Energy-differentiated GPU cloud | $3.90 → **$4.50** 1 Dec 2026 | Illegal / CSAM / NCEI; no blanket adult ban found |
 | **Vultr** | Global mid-cloud; aggressive HGX list | **$2.30** | Obscene / offensive |
-| **Verda** (ex-DataCrunch) | EU AI cloud; spot + serverless | $5.24 (spot $2.62) | No explicit porn ban found in excerpt |
+| **Verda** (ex-DataCrunch) | EU AI cloud; spot + serverless | $5.24 (spot $2.62) | AUP **“obscene”** grey → **U2–U3**. See [page 9 §9](09-gpu-cloud-provider-value-research.md#9-verda-formerly-datacrunch--verified-rename) |
 | **NexGen / Hyperstack** | On-demand/reserved/spot; hibernation | $2.50–3.20 (reserved from $1.75) | **No adult/porn ban.** Soft “harmful/discriminatory” AI clause + monitor right (13 Jan 2026). GPU VMs **U3–U4**; AI Studio **U2–U3**. See [page 9 §10](09-gpu-cloud-provider-value-research.md#10-nexgen-cloud-hyperstack) |
 | **GMI Cloud** | Dedicated GPU + Inference Engine; APAC factory story | from $2.60 | AUP English body **not retrieved** |
-| **Denvr** | Canada/US transparent AI cloud | **$2.45** | Illegal/CSAM; mining banned |
+| **Denvr** | Canada/US transparent AI cloud | **$2.45** | Illegal/CSAM; no porn ban → **U3–U4**. See [page 9 §12](09-gpu-cloud-provider-value-research.md#12-denvr-dataworks) |
 | **Bitdeer** | Mining-heritage → AI cloud; public reserved columns | ~$2.90 (tracker) | “Obscene”; brand diligence heavier |
 | **Scaleway** | FR/EU sovereign GPU + generative APIs | PCIe ~€2.86; SXM ~€6.61 | Unlawful porn / sexualized (FR context) |
 | **Gcore** | Edge + GPU VMs/bare metal | ~$2.61–3.12 | “Inappropriate or unlawful” |
@@ -219,14 +219,14 @@ We control the stack (except marketplace Community). Full write-ups: [page 9](09
 | CoreWeave | GPU IaaS | Own stack | High (illegal-only porn) | High OD / good reserved | Primary |
 | Nebius | GPU IaaS | Own stack | Mid (“obscene”) | Mid | Primary |
 | Vultr | GPU IaaS | Own stack | Mid | Best big-list OD | Primary |
-| Denvr | GPU IaaS | Own stack | High | Excellent OD | Primary |
+| Denvr | GPU IaaS | Own stack | **U3–U4** (illegal/CSAM AUP) | Excellent OD | Primary |
 | Seeweb | GPU IaaS | Own stack (EU) | Mid | Best EU OD | Primary EU |
 | Crusoe | GPU IaaS | Own stack | High | Mid (rising Dec) | Secondary |
 | Lambda | GPU IaaS | Own stack | Mid | Mid (rising 16 Nov) | Secondary |
 | DigitalOcean | GPU IaaS | Own stack | Mid–high | Mid | Secondary |
 | NexGen | GPU IaaS | Own stack | **U3–U4** VMs (soft AI adjectives) | Strong reserved | Secondary |
 | GMI | GPU IaaS | Own stack | Uncertain AUP | Attractive “from” | Secondary |
-| Verda | GPU IaaS | Own stack (+ CC marketing) | Mid | Mid OD / good spot | Secondary |
+| Verda | GPU IaaS | Own stack (+ CC marketing) | **U2–U3** (“obscene” AUP) | Mid OD / good spot | Secondary |
 | Scaleway | GPU IaaS | Own stack (EU sovereign) | Mid–low | PCIe OK / SXM dear | Secondary EU |
 | Gcore | GPU IaaS | Own stack | Mid | Competitive | Secondary |
 | Bitdeer | GPU IaaS | Own stack | Mid | Competitive | Secondary |

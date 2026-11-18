@@ -153,15 +153,56 @@ Research compiled **15 November 2026** for Venice-style private AI self-hosting 
 
 | Field | Detail |
 |---|---|
-| **Category** | Neocloud / regional (European AI cloud) |
+| **Category** | Neocloud / regional (European AI cloud) — **Verda Cloud Oy** (Finland) |
 | **Core value prop** | Full-stack AI cloud (instances, serverless containers, clusters); EU sovereignty/sustainability positioning. **DataCrunch → Verda** announced Nov 2025; invoices may show “Verda (formerly DataCrunch)” from ~17 Nov 2025. |
-| **Privacy posture** | Customer-controlled; European DC posture; Hopper Confidential Computing mentioned on H100 product page. |
-| **Content / AUP** | Schedule 1 AUP: illegal AI uses (social scoring, untargeted facial scraping, etc.), spam, crypto-mining abuse, sanctions. **No explicit pornography ban** found in fetched T&Cs excerpt — confirm Schedule 1 in full before relying. |
+| **Privacy posture** | Customer-controlled; European DC posture; Hopper Confidential Computing add-on; DPA in Schedule 2. Finland law; Helsinki arbitration (English). |
+| **Content / AUP** | Schedule 1 bans transmitting material that is **“obscene”** (plus unlawful/harmful/defamatory/illegal images). **Not a named pornography ban**, but **obscene is adult-adjacent grey**. Separate **Schedule 5 AI Terms** for managed AI Services (CSAM/NCII/etc.). See deep dive below. |
 | **H100 pricing** | Instances: OD **$5.241/GPU-hr**, Spot **$2.621**. Serverless continuous: **$5.77** / Spot **$2.88**. Instant clusters 16–64 IB: **on request**. |
-| **Differentiators** | Spot + serverless scale-to-zero; EU brand; confidential compute marketing. |
-| **Fit** | **Secondary** — EU option; OD higher than Vultr/Seeweb/Denvr. |
-| **Key risks** | Rebrand transition; fixed pricing restructure in progress; confirm AUP adult silence with counsel. |
+| **Differentiators** | Spot + serverless scale-to-zero; EU brand; confidential compute marketing; permitted “platform” use to offer your own services (with limits). |
+| **Fit** | **Secondary** — EU option; OD higher than Vultr/Seeweb/Denvr; AUP greyer than Denvr/Seeweb. Self-host ≈ **U2–U3**. |
+| **Key risks** | **“Obscene”** AUP adjective; military-use ban; resale limits; AI Schedule 5 if using managed models; rebrand/pricing transition. |
 | **Sources** | [Rename blog](https://verda.com/blog/datacrunch-is-changing-its-name-to-verda), [Pricing](https://verda.com/pricing), [H100](https://verda.com/h100), [Terms](https://verda.com/terms-and-conditions) |
+
+### Verda “uncensored” terms deep dive (18 Nov 2026)
+
+**Product split:**
+
+| Product | What it is | Uncensored relevance |
+|---|---|---|
+| **Instances / serverless / clusters** (infra) | You run weights on Verda GPUs | Bound by **Schedule 1 AUP** (includes **obscene**) |
+| **AI Services / Supplier AI Models** | Managed models Verda makes available | Extra **Schedule 5** restrictions (CSAM, NCII, harassment, AI Act Art. 5, no circumventing safety filters) |
+| **Customer Models** on Verda infra | Your model packaged for their serving | Schedule 5 §2.3: Verda is **infrastructure only**; you own AI Act / compliance role |
+
+**What Schedule 1 (AUP) actually says** ([verda.com/terms-and-conditions](https://verda.com/terms-and-conditions)):
+
+1. Customer must not store/distribute/transmit material that:
+   - is **unlawful, harmful, threatening, defamatory, obscene**, knowingly infringing, harassing or racially/ethnically offensive, or facilitates illegal activity;
+   - contains **illegal images**; or
+   - promotes violence or discrimination (protected characteristics) or other illegal activities.
+2. Also bans: malware; malicious bots/scrapers/**crypto mining** (unless authorised); spam; building a competing substantially similar service; unauthorised pentests; sanctions circumvention; **military purposes** (weapons) unless agreed; account abuse / stolen payment methods.
+3. **§2 Permitted platform use:** you **may** use Verda as a platform to offer your own services to third parties, **provided** what you offer is not entirely/predominantly just the Verda Service itself (i.e. thin pure resale of their SKU is restricted; embedding in a broader product is contemplated).
+4. **§3:** use must comply with Finnish governing law and all other applicable laws.
+5. **Suspension (main ToS §14.4):** with written notice if use poses security risk, may adversely impact service, **may subject Verda or any third party to liability**, or may be fraudulent; or breach of Agreement / third-party software licences. Reinstate when cured; >30 days → terminate.
+6. **Monitoring:** automated security monitoring, threat and abuse detection are normal ops (not an “audit”). Annual compliance audit rights if reasonable grounds for concern.
+7. **Governing law:** Finland; arbitration under Finland Chamber of Commerce rules, seat Helsinki, English language.
+
+**Schedule 5 AI Terms (managed AI Services only — highlights):**
+
+- Hard bans on CSAM / sexualising minors, **non-consensual intimate imagery**, deepfake impersonation without consent, harassment, self-harm instructions, fraud/phishing/disinformation, malware, circumventing safety guardrails, competing with the AI Model, illegal Input, AI Act Art. 5 practices.
+- Supplier may apply technical measures to keep AI Services “safe, secure, lawful” and verify compliance; may retain Input/Output if required by law.
+- **Does not train** on Input/Output/Customer Models.
+- Third-party model licences stack on top.
+
+**What is *not* named:** “pornography,” “adult,” “NSFW,” “sexually explicit” as standalone bans on **infra**. The catch-all is **obscene**.
+
+| Peer | Sexual / obscenity language | Verda |
+|---|---|---|
+| Together / Fireworks / Novita / RunPod | Explicit porn / sexual | — |
+| Bitdeer / Lambda | **Obscene** (grey) | **Same family — “obscene”** |
+| Seeweb / Denvr | Legality / CSAM focus | Cleaner than Verda |
+| Verda Schedule 1 | **Obscene** + unlawful/harmful | **U2–U3** for self-host |
+
+**Score for our stack:** Our clean product (block sexual content, allow lawful low-refusal) should fit **if** frank lawful text is not treated as “obscene.” Residual risk is higher than Denvr/Seeweb because Finnish/ops staff could stretch “obscene” or “may subject Supplier to liability.” Prefer Verda for EU spot/infra experiments, not as the Primary reserved pick for uncensored depth. Get sales confirmation that lawful non-porn inference is in-bounds.
 
 ---
 
@@ -259,15 +300,67 @@ Research compiled **15 November 2026** for Venice-style private AI self-hosting 
 
 | Field | Detail |
 |---|---|
-| **Category** | Neocloud / regional (Canada-rooted) |
+| **Category** | Neocloud / regional (Canada-rooted) — **Denvr Dataworks Corp** (non-US) / **Denvr Dataworks USA, Inc** (US customers) |
 | **Core value prop** | Transparent AI cloud: bare metal / VM / endpoints; InfiniBand 3200G H100 nodes; Calgary + Houston regions. |
-| **Privacy posture** | Customer-controlled; Canada West (MSC1 Calgary) + US South (HOU1 Houston); DPA; Alberta/Canadian law for site ToS. |
-| **Content / AUP** | Bans illegal activity including CSAM; no blanket pornography ban. Crypto **mining** banned. Clean product OK. |
+| **Privacy posture** | Customer-controlled; Canada West (MSC1 Calgary) + US South (HOU1 Houston); [DPA](https://www.denvr.com/data-processing-addendum). Ontario+federal Canadian law if customer outside US; Delaware if US customer. |
+| **Content / AUP** | Dedicated [AUP](https://www.denvr.com/acceptable-use-policy) (21 Jul 2023): **illegal** activity including **CSAM**; terrorism/violence; IP; sanctions; spam; **crypto mining**; hacking. **No pornography / obscene / adult ban.** Cloud ToS (8 Jul 2025) incorporates AUP. See deep dive below. |
 | **H100 pricing** | H100 SXM 8× **$2.45/GPU-hr** OD (public, confirmed trackers 14–15 Nov 2026). Reserved up to **~20%** off — **sales**. H200 reserved-only on pricing page. |
-| **Differentiators** | Canadian residency option; Weka/NVMe; per-minute billing; strong list price. |
-| **Fit** | **Primary reserved** candidate on price + North America residency; diligence scale/SLA. |
-| **Key risks** | Smaller footprint than CoreWeave; H200 not OD; confirm multi-region failover. |
-| **Sources** | [denvr.com/pricing](https://www.denvr.com/pricing), [H100 product](https://www.denvr.com/product-pages/nvidia-h100), [AUP](https://www.denvr.com/acceptable-use-policy), [Data centers](https://docs.denvrdata.com/docs/overview/data-centers) |
+| **Differentiators** | Canadian residency option; Weka/NVMe; per-minute billing; strong list price; clearest “illegal/CSAM only” AUP among Primary shortlist peers. |
+| **Fit** | **Primary reserved** on price + AUP + North America residency. Self-host ≈ **U3–U4**. |
+| **Key risks** | Smaller footprint than CoreWeave; H200 not OD; ToS **timesharing / service bureau / commercially exploit** restrictions — confirm Sales Order allows our multi-tenant inference product; scale/SLA diligence. |
+| **Sources** | [Pricing](https://www.denvr.com/pricing), [H100](https://www.denvr.com/product-pages/nvidia-h100), [AUP](https://www.denvr.com/acceptable-use-policy), [Cloud ToS PDF](https://console.cloud.denvrdata.com/assets/denvr_cloud_terms_of_service.pdf), [Data centers](https://docs.denvrdata.com/docs/overview/data-centers) |
+
+### Denvr “uncensored” terms deep dive (18 Nov 2026)
+
+**Documents that matter:**
+
+| Document | Role |
+|---|---|
+| [Acceptable Use Policy](https://www.denvr.com/acceptable-use-policy) (last updated **21 Jul 2023**) | Content / use prohibitions for Denvr Cloud |
+| **Denvr AI Services Terms of Service** (last updated **8 Jul 2025**, PDF in console) | Master cloud agreement; incorporates AUP by reference |
+| Website [Terms of Use](https://www.denvr.com/terms-of-service) | Site browsing only — **not** the cloud MSA |
+| [DPA](https://www.denvr.com/data-processing-addendum) | Personal information processing |
+
+**AUP — prohibited activities (verbatim themes):**
+
+You may not use (or allow others to use) Denvr Cloud:
+
+- to violate legal rights of others;
+- to violate applicable laws, **including** laws relating to: **child sexual exploitation or abuse**; terrorism/violence causing serious harm; IP; export/import; economic/trade sanctions; data privacy / international communications;
+- to disrupt other users;
+- spam / unsolicited mass email;
+- **any cryptocurrency mining** (validate, generate, or related);
+- hack / DDoS / malware / phishing against Denvr Cloud;
+- impersonation;
+- distribute viruses / destructive deceptive items.
+
+**Violations:** Denvr may report actual or suspected AUP breaches to law enforcement / regulators / third parties; you must notify them if you become aware of a violation (`legal@denvrdata.com`).
+
+**Not in the AUP:** pornography, adult, NSFW, obscene, sexually explicit, harmful (as a free-floating adjective), discriminatory content (except via “applicable laws”).
+
+**Cloud ToS overlay (8 Jul 2025) — uncensored-relevant bits:**
+
+1. **Restrictions on Use** — Customer will not (unless otherwise set out in the Agreement):
+   - sub-license / sell / rent / lend / lease / distribute Services to others other than **Permitted Users**;
+   - use Services for **timesharing, service bureau, or commercially exploit** the Services;
+   - use Services **in violation of the AUP**;
+   - use in violation of law, or in a way that threatens security/functionality;
+   - process Customer Materials that are malware, that Customer lacks lawful right to process, or that infringe IP / privacy / publicity rights;
+   - reverse engineer; build a competing product; unauthorised pentests.
+2. **Implication for us:** a UAE private-AI product that serves many end users on rented GPUs is fine on **content** (AUP), but the **commercial-exploit / timesharing** language is a contracting issue — negotiate an express Sales Order carve-out that Permitted Users include our end users / that multi-tenant inference is permitted.
+3. **Suspension:** discretionary for maintenance, force majeure, **good-faith belief** of Agreement violation, emergency security, or financial risk (non-payment / credit).
+4. **Customer Materials:** Customer responsible for accuracy, quality, **legality**, and how materials were acquired.
+5. **Entity / law:** US customers → Denvr Dataworks USA, Inc + Delaware law/courts. Everyone else (including UAE) → Denvr Dataworks Corp + **Ontario + federal Canadian law**, courts in Toronto.
+6. Export / sanctions compliance on Customer.
+
+| Peer | Sexual / obscenity language | Denvr |
+|---|---|---|
+| Together / Fireworks / Novita / RunPod | Explicit porn bans | **No** |
+| Verda / Bitdeer / Lambda | **Obscene** grey | **No** |
+| Seeweb | Legality indemnity only | Similar cleanliness |
+| Denvr AUP | **Illegal + CSAM named**; mining banned | **Clearest Primary-shortlist AUP** |
+
+**Score for our stack:** For “uncensored = lawful low-refusal,” Denvr is among the **best** GPU AUPs we reviewed (**U3–U4**). Keep sexual content blocked in product policy; illegal/CSAM remains hard-out. Before production: (1) Sales Order language for multi-tenant / commercial use of the cloud, (2) confirm AUP won’t be silently rewritten to add “obscene/porn” without notice process we can react to.
 
 ---
 
@@ -378,7 +471,7 @@ Research compiled **15 November 2026** for Venice-style private AI self-hosting 
 ## Implications for our self-host phase
 
 1. **Primary reserved shortlist:** CoreWeave (ops/K8s) + Nebius (EU/price) remain valid; add **Vultr** and **Denvr** on raw $/hr, **Seeweb** for EU GDPR slice.
-2. **AUP:** CoreWeave and Denvr/Crusoe are clearest “illegal porn only.” RunPod, Together, Lambda, Nebius, Vultr, Bitdeer use **obscene / pornography** language — acceptable under our clean policy but raise suspension risk if users slip past filters.
+2. **AUP:** CoreWeave and **Denvr**/Crusoe are clearest “illegal / CSAM” (Denvr has no porn/obscene ban — see §12). **Verda** joins Lambda/Bitdeer in the **obscene** grey bucket (see §9). RunPod, Together, Fireworks, Novita use hard pornography language.
 3. **Never** put production prompts on RunPod Community or Vast-style marketplaces.
 4. **Together** dedicated is overflow/ops shortcut, not a substitute for owning vLLM on reserved GPUs for Private mode.
 5. Re-check Lambda (16 Nov) and Crusoe (1 Dec) list prices before any board pack that quotes $/hr.

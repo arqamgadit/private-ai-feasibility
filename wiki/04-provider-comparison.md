@@ -42,7 +42,7 @@ H100 on-demand prices per GPU-hour (15 Nov 2026); reserved contracts are cheaper
 |---|---|---|---|
 | **Seeweb** | ~**€1.89** (~$2.09) | Confirm Italian ToS; customer responsible for legality | We control the stack (EU) |
 | **Vultr** | **$2.30** | Obscene / offensive | We control the stack |
-| **Denvr** | **$2.45** | Illegal / CSAM; mining banned | We control the stack |
+| **Denvr** | **$2.45** | AUP (Jul 2023): illegal incl. **CSAM**; mining banned; **no porn/obscene ban**. Cloud ToS (Jul 2025) adds timesharing/commercial-exploit limits — Sales Order carve-out needed. Deep dive: [page 9 §12](09-gpu-cloud-provider-value-research.md#12-denvr-dataworks) | We control the stack |
 | **NexGen / Hyperstack** | $2.50–3.20 (reserved from $1.75) | **No adult/porn ban.** General AUP: illegal/abusive/fraudulent/violent. Extra AI Model rule: no misleading/harmful/discriminatory/defamatory generation; **monitor** + suspend on **perceived** breach. England & Wales / LCIA. Deep dive: [page 9 §10](09-gpu-cloud-provider-value-research.md#10-nexgen-cloud-hyperstack) | We control the stack (VMs). AI Studio is a separate managed lane |
 | **GMI Cloud** | from $2.60 | AUP English body not retrieved | We control the stack |
 | **RunPod Secure** | PCIe ~$2.89 | **Bans pornography and graphic adult content**, lifetime bans | Fine on Secure Cloud; **avoid Community** |
@@ -53,7 +53,7 @@ H100 on-demand prices per GPU-hour (15 Nov 2026); reserved contracts are cheaper
 | **DigitalOcean** | $4.41 ($3.26 reserved) | Unlawful pornography | We control the stack |
 | **Nebius** | $4.50 | “Obscene” (vague); fine for our policy | We control the stack |
 | **Lambda** | $4.59 8× SXM (from 16 Nov 2026) | Obscene / indecent / illegal pornography | We control the stack |
-| **Verda** (ex-DataCrunch) | $5.24 (spot $2.62) | No explicit porn ban found in excerpt | We control the stack |
+| **Verda** (ex-DataCrunch) | $5.24 (spot $2.62) | Schedule 1 AUP bans **“obscene”** (+ unlawful/harmful). No named porn ban but greyer than Denvr/Seeweb. Schedule 5 for managed AI. Finland law. Deep dive: [page 9 §9](09-gpu-cloud-provider-value-research.md#9-verda-formerly-datacrunch--verified-rename) | We control the stack |
 | **Together dedicated** | Clusters $3.99; DMI $5.49 | Obscene / pornography ban | Dedicated replicas / bare metal; serverless stores by default |
 | **CoreWeave** | $6.16 (commit up to −60% quote) | Most permissive of the big clouds: bans only *unlawful* pornography | We control the whole stack |
 | **AWS** | ~$7.9 SageMaker / ~$5.97 Capacity Block | Strict Responsible AI | Fine for app plane; too expensive for primary inference |
