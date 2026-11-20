@@ -201,7 +201,7 @@ The baseline matters more than any other input. Establishing it is the first act
 The [private AI financial model](../02-financial-model.md) plans for 190,000 paying AI subscribers and $71M of recurring revenue in year five. Set against this page:
 
 - By count, private AI is about 3% of a 6 million target. It is not a 10x lever.
-- By revenue, it could be the largest single line: $71M against the $110M centre of Path D for everything else.
+- By revenue, it could be the largest single line: $71M in that model's base case, against about $110M for the whole Path D centre. Path D values every new-product buyer at a blended $30 a year, which understates a private AI subscriber paying $216 a year. Read the private AI model's revenue as largely additional to Path D, not as part of it.
 - The two plans share a dependency. Both assume PureVPN's base can be cross-sold. A base of 0.6M rather than 1M cuts the attach-rate revenue on [the market research page](../07-market-research.md) by 40%. Partner distribution could restore it, if the AI assistant is offered as a module in the partner kit.
 
 ## Open gaps
