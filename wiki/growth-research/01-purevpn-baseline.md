@@ -15,7 +15,7 @@ Research compiled **20 November 2026**. This page sets out what is publicly know
 
 | Question | Answer | Status |
 |---|---|---|
-| Who owns PureVPN? | GZ Systems Limited (British Virgin Islands) is the contracting company. PureVPN sits inside the PureSquare group, which belongs to Disrupt.com (formerly Gaditek), a founder-owned venture builder based in the UAE with most staff in Karachi. | Sourced |
+| Who owns PureVPN? | GZ Systems Limited (British Virgin Islands) is the contracting company. PureVPN sits inside the PureSquare group, which belongs to Disrupt.com (formerly Gaditek), a founder-owned venture builder based in the UAE. One directory lists its headquarters as Karachi. | Sourced |
 | How many customers does it have? | PureVPN says "5 million users". It does not say how many pay. | Claim |
 | How many paying subscribers? | About **0.6 million**, in a range of **0.3 to 1.2 million**. | Estimate, low to medium confidence |
 | How much revenue? | Roughly **$21M to $36M** a year from direct consumer subscriptions. | Estimate, low confidence |
