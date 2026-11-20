@@ -25,6 +25,21 @@ The company is assumed to be based in the UAE.
 |---|---|
 | [Venice.ai competitor analysis](competitor-research/venice-ai.md) | Venice's customer acquisition, adult-content exclusions, "VPN for AI" landscape, developer vs consumer revenue split and clean addressable market for PureVPN |
 
+## Growth research
+
+A separate, wider question: how PureVPN could grow its customer base ten-fold through product innovation. Compiled 20 November 2026. The private AI product above is one of 21 opportunities assessed.
+
+| Page | What it covers |
+|---|---|
+| [Main report: growing PureVPN's customer base 10x](growth-research/00-main-report.md) | Executive summary, the 10x arithmetic in one table, recommended bets, and all eight sections in short form |
+| [1. PureVPN baseline](growth-research/01-purevpn-baseline.md) | Ownership, estimated paying subscribers and revenue, products, pricing, audits, reviews, traffic and geography |
+| [2. Market and demand structure](growth-research/02-market-and-demand.md) | Market size and why figures disagree, reasons to buy, regulatory shocks through 2026, platform threats, review-site and affiliate economics |
+| [3. Competitor product strategy teardown](growth-research/03-competitor-teardown.md) | What Nord, Surfshark, Proton, ExpressVPN, Mullvad and others launched, the evidence it added customers, and what failed |
+| [4. Product innovation opportunity catalog](growth-research/04-opportunity-catalog.md) | 21 opportunities sized and scored, split into those that add customers and those that add value per customer |
+| [5. Sizing model, 10x arithmetic and scenarios](growth-research/05-sizing-model-and-scenarios.md) | What 10x requires, comparisons with the leaders, four scenario paths and sensitivities |
+| [6. Validation plan, internal data requests and risks](growth-research/06-validation-and-risks.md) | Cheapest experiments with thresholds, 20 internal data requests, and the case against the recommendation |
+| [7. Sources and method](growth-research/07-sources.md) | Every source by topic, tools that were and were not available, and claims resting on weak evidence |
+
 ## Interactive model
 
 The full financial model is an interactive canvas where every assumption can be edited:
@@ -42,6 +57,7 @@ Provider value offerings across confidential AI, open APIs, frontier ZDR and GPU
 - Prices and provider policies: short tables refreshed **15 November 2026** ([pages 4](04-provider-comparison.md), [9](09-gpu-cloud-provider-value-research.md), [10](10-provider-value-offering.md)). Both change often, so re-check before signing contracts.
 - Interactive provider value matrix: [Private AI provider value offering](https://cursor.com/canvas/store-6d9201ae-7bc3-4f73-868f-a4721e776fc1/51ed0eb0-5eaf-491e-819c-e0f54a868022).
 - Financial assumptions are planning estimates. [Page 7](07-market-research.md) replaces the market-size guess with sourced ranges: about $40–80M of clean consumer private AI today, planned at about 40% a year. Conversion, churn and the PureVPN attach rate are still unmeasured. Validate those, plus payment fees and token costs, before showing the model to investors.
+- The [growth research](growth-research/00-main-report.md) estimates PureVPN's paying base at about 0.6 million (range 0.3 to 1.2 million), below the roughly 1 million assumed on [page 7](07-market-research.md). The attach-rate revenue there should be read 40% lower until PureVPN's own figure is known.
 - Nothing here is legal advice. See [Legal risks](06-legal-risks.md) for the questions to take to counsel.
 
 ## Key decisions so far
