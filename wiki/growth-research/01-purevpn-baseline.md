@@ -69,7 +69,7 @@ Surfshark is the best yardstick because it has published a recent paying-user nu
 - The four signals cluster between 0.2M and 0.5M.
 - We set the centre above that cluster for three reasons. PureVPN sells five-year plans, and long-plan holders review and search less often. The Ivacy migration added subscribers who never installed through a PureVPN store listing. And the same comparison against NordVPN's web traffic gives a higher answer (7.8% of [nordvpn.com's 16.78M visits](https://www.semrush.com/website/nordvpn.com/overview/)).
 - The upper bound of 1.2M would need PureVPN to earn far more per visit and per review than Surfshark does. Nothing public supports that.
-- The existing wiki assumed about 1 million subscribers ([Venice note](../competitor-research/venice-ai.md)). That figure divided an assumed $60M of revenue by $60 a year. The evidence here points lower.
+- The existing wiki assumed about 1 million subscribers ([market research page](../07-market-research.md)). That figure divided an assumed $60M of revenue by $60 a year. The evidence here points lower.
 
 ### Revenue
 

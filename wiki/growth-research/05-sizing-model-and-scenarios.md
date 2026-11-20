@@ -119,6 +119,8 @@ Partners include PureVPN's service in their own plans and pay per active user.
 | **Multiple of today** | **2.7x** | **6.8x** | **11x** | |
 | Wholesale revenue a year | $4M | $21M | $48M | Assumption: $0.33, $0.50 and $0.67 per active user per month |
 
+The [catalog](04-opportunity-catalog.md#1-partner-distribution-platform) shows the same shape before any shortfall: three anchors at 1.0M, 20 mid-sized partners at 40,000 and 150 small ones at 2,000 give 4.1M.
+
 **Verdict.** This is the only single path on which the high case passes 10x. It does so with low revenue per customer and heavy dependence on a handful of contracts.
 
 ### Path C. Category-expansion-led
@@ -151,6 +153,7 @@ Partners carry the count. A trust reset, an emerging-market offer and a staged f
 | **Multiple of today (0.6M)** | **3.5x** | **9.5x** | **16x** | |
 | Revenue a year | $45M | $110M | $210M | Direct at $40, $45 and $50 a year; partner users at $4, $6 and $8; new-product buyers at $25, $30 and $35. All assumptions |
 | Multiple of today's revenue ($21M to $36M) | 1.3x to 2.1x | 3x to 5x | 6x to 10x | |
+| Free monthly users, not counted above | 2M | 5M | 10M | Assumption: roughly half of Path A's figures, because the tier is staged by market. At $0.10 per user per month that costs about $2M, $6M and $12M a year |
 
 Notes on the centre:
 
@@ -199,7 +202,7 @@ The [private AI financial model](../02-financial-model.md) plans for 190,000 pay
 
 - By count, private AI is about 3% of a 6 million target. It is not a 10x lever.
 - By revenue, it could be the largest single line: $71M against the $110M centre of Path D for everything else.
-- The two plans share a dependency. Both assume PureVPN's base can be cross-sold. A base of 0.6M rather than 1M cuts the attach-rate revenue in [the Venice note](../competitor-research/venice-ai.md) by 40%. Partner distribution could restore it, if the AI assistant is offered as a module in the partner kit.
+- The two plans share a dependency. Both assume PureVPN's base can be cross-sold. A base of 0.6M rather than 1M cuts the attach-rate revenue on [the market research page](../07-market-research.md) by 40%. Partner distribution could restore it, if the AI assistant is offered as a module in the partner kit.
 
 ## Open gaps
 
