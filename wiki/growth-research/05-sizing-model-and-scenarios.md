@@ -157,7 +157,7 @@ Partners carry the count. A trust reset, an emerging-market offer and a staged f
 
 Notes on the centre:
 
-- The free tier contributes about half of its stand-alone centre here, because it launches only after the trust reset and only in selected markets.
+- The emerging-market offer and the free tier are counted together at 0.5M. That is well under their stand-alone centres added up (about 0.3M and 1.1M). They draw on the same installs in the same countries, and the free tier launches only after the trust reset and only in selected markets.
 - Direct subscribers grow 2.5 times. Mullvad grew revenue about four-fold in four years on trust alone ([rating.se](https://www.rating.se/info1/detail/numbers/5592384001)), so growth of that order has a precedent.
 - Sixty per cent of the centre's count is partner-paid. If no anchor partner is won, the path delivers the low case.
 
