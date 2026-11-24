@@ -24,6 +24,7 @@ The company is assumed to be based in the UAE.
 | Document | What it covers |
 |---|---|
 | [Venice.ai competitor analysis](competitor-research/venice-ai.md) | Venice's customer acquisition, adult-content exclusions, "VPN for AI" landscape, developer vs consumer revenue split and clean addressable market for PureVPN |
+| [Clean private assistants](competitor-research/clean-private-assistants.md) | Feature comparison of ExpressAI, Proton Lumo, Duck.ai and Brave Leo (privacy architecture, models, pricing, capabilities). Interactive: [canvas](https://cursor.com/canvas/store-6d9201ae-7bc3-4f73-868f-a4721e776fc1/dd669d8c-f469-4218-8b1d-81cc2bd1c24f) |
 
 ## Interactive model
 

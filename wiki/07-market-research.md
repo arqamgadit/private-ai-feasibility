@@ -129,6 +129,8 @@ ChatGPT, Gemini, Claude, Copilot, Grok, Perplexity, Meta AI, DeepSeek. Quality b
 | Brave Leo | In-browser. History on device. One model (GLM) routes into a TEE; the browser still trusts Brave's gateway for the check. | Premium $14.99 | Brave claims 128 million browser users. Leo's own usage is not disclosed. | Distribution inside a browser, not a destination site. |
 | ExpressVPN ExpressAI | Sealed hardware, zero access, Cure53 audit, several models, web search, file vault. Included for Pro subscribers. | Bundle, not a standalone AI price. Launch promo cited the whole suite at $4.87 a month. Launched 31 Mar 2026. | No user or revenue split published. | A large VPN already shipping the product idea, with an audit we do not have. |
 
+Full feature matrix for Lumo, Duck.ai, Leo and ExpressAI: [clean private assistants note](competitor-research/clean-private-assistants.md) and the [comparison canvas](https://cursor.com/canvas/store-6d9201ae-7bc3-4f73-868f-a4721e776fc1/dd669d8c-f469-4218-8b1d-81cc2bd1c24f) (24 Nov 2026).
+
 Smaller names using the "VPN for AI" phrase (Discrezo, Shield, AnonRouter, Antseed, Open Anonymity) had no scale in the October scan. Norton and Bitdefender use it for **agent network connections**, which hide the agent's IP and do not hide the prompt.
 
 ### Local and on-device (a habit, not a bill)
