@@ -24,6 +24,7 @@ The company is assumed to be based in the UAE.
 | Document | What it covers |
 |---|---|
 | [Venice.ai competitor analysis](competitor-research/venice-ai.md) | Venice's customer acquisition, adult-content exclusions, "VPN for AI" landscape, developer vs consumer revenue split and clean addressable market for PureVPN |
+| [Cloaked and competitors](competitor-research/cloaked-and-competitors.md) | Cloaked vs Aura, IronVest/Ivy, Incogni, DeleteMe, Optery, plus Nord and ExpressVPN suite overlap. Interactive: [canvas](https://cursor.com/canvas/store-6d9201ae-7bc3-4f73-868f-a4721e776fc1/4e85656c-5320-4007-a49c-341217fcbfb8) |
 
 ## Interactive model
 
